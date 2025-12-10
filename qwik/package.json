@@ -1,0 +1,23 @@
+{
+  "name": "qwik",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "preview": "serve dist"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.17.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "serve": "^14.2.5",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}
