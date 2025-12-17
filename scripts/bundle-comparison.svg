@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <style>
+      * { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+      .title { font-size: 24px; font-weight: bold; fill: #333; }
+      .subtitle { font-size: 14px; fill: #666; }
+      .label { font-size: 12px; fill: #333; }
+      .axis-label { font-size: 12px; fill: #666; }
+      .grid-line { stroke: #e0e0e0; stroke-width: 1; }
+      .axis { stroke: #333; stroke-width: 2; }
+      .bar-label { font-size: 13px; fill: #333; font-weight: 500; }
+      .value-label { font-size: 12px; fill: #333; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" class="title">Framework Bundle Size Comparison</text>
+  <text x="600" y="55" text-anchor="middle" class="subtitle">JavaScript bundle size (gzipped) in KB</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="60" x2="80" y2="520" class="axis"/>
+
+  <!-- X-axis -->
+  <line x1="80" y1="520" x2="1160" y2="520" class="axis"/>
+
+  <!-- Y-axis grid lines and labels -->
+  <!-- Grid line 0 -->
+  <line x1="80" y1="520" x2="1160" y2="520" class="grid-line"/>
+  <text x="70" y="525" text-anchor="end" class="axis-label">0</text>
+  <!-- Grid line 1 -->
+  <line x1="80" y1="474" x2="1160" y2="474" class="grid-line"/>
+  <text x="70" y="479" text-anchor="end" class="axis-label">6</text>
+  <!-- Grid line 2 -->
+  <line x1="80" y1="428" x2="1160" y2="428" class="grid-line"/>
+  <text x="70" y="433" text-anchor="end" class="axis-label">12</text>
+  <!-- Grid line 3 -->
+  <line x1="80" y1="382" x2="1160" y2="382" class="grid-line"/>
+  <text x="70" y="387" text-anchor="end" class="axis-label">18</text>
+  <!-- Grid line 4 -->
+  <line x1="80" y1="336" x2="1160" y2="336" class="grid-line"/>
+  <text x="70" y="341" text-anchor="end" class="axis-label">24</text>
+  <!-- Grid line 5 -->
+  <line x1="80" y1="290" x2="1160" y2="290" class="grid-line"/>
+  <text x="70" y="295" text-anchor="end" class="axis-label">30</text>
+  <!-- Grid line 6 -->
+  <line x1="80" y1="244" x2="1160" y2="244" class="grid-line"/>
+  <text x="70" y="249" text-anchor="end" class="axis-label">36</text>
+  <!-- Grid line 7 -->
+  <line x1="80" y1="198" x2="1160" y2="198" class="grid-line"/>
+  <text x="70" y="203" text-anchor="end" class="axis-label">42</text>
+  <!-- Grid line 8 -->
+  <line x1="80" y1="152" x2="1160" y2="152" class="grid-line"/>
+  <text x="70" y="157" text-anchor="end" class="axis-label">48</text>
+  <!-- Grid line 9 -->
+  <line x1="80" y1="106" x2="1160" y2="106" class="grid-line"/>
+  <text x="70" y="111" text-anchor="end" class="axis-label">54</text>
+  <!-- Grid line 10 -->
+  <line x1="80" y1="60" x2="1160" y2="60" class="grid-line"/>
+  <text x="70" y="65" text-anchor="end" class="axis-label">60</text>
+  <text x="20" y="300" text-anchor="middle" transform="rotate(-90 20 300)" class="axis-label">Size (KB)</text>
+  <!-- Bar 0 -->
+  <rect x="92" y="65.44333333333333" width="96" height="454.5566666666667" fill="#0d47a1" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="140" y="57.44333333333333" text-anchor="middle" class="value-label">59.29</text>
+  <!-- Bar 1 -->
+  <rect x="212" y="92.35333333333335" width="96" height="427.64666666666665" fill="#1565c0" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="260" y="84.35333333333335" text-anchor="middle" class="value-label">55.78</text>
+  <!-- Bar 2 -->
+  <rect x="332" y="173.92666666666668" width="96" height="346.0733333333333" fill="#1976d2" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="380" y="165.92666666666668" text-anchor="middle" class="value-label">45.14</text>
+  <!-- Bar 3 -->
+  <rect x="452" y="318.6733333333333" width="96" height="201.32666666666668" fill="#1e88e5" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="500" y="310.6733333333333" text-anchor="middle" class="value-label">26.26</text>
+  <!-- Bar 4 -->
+  <rect x="572" y="329.40666666666664" width="96" height="190.59333333333333" fill="#2196f3" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="620" y="321.40666666666664" text-anchor="middle" class="value-label">24.86</text>
+  <!-- Bar 5 -->
+  <rect x="692" y="348.3433333333333" width="96" height="171.6566666666667" fill="#42a5f5" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="740" y="340.3433333333333" text-anchor="middle" class="value-label">22.39</text>
+  <!-- Bar 6 -->
+  <rect x="812" y="460.0466666666667" width="96" height="59.95333333333333" fill="#64b5f6" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="860" y="452.0466666666667" text-anchor="middle" class="value-label">7.82</text>
+  <!-- Bar 7 -->
+  <rect x="932" y="483.12333333333333" width="96" height="36.876666666666665" fill="#90caf9" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="980" y="475.12333333333333" text-anchor="middle" class="value-label">4.81</text>
+  <!-- Bar 8 -->
+  <rect x="1052" y="488.87333333333333" width="96" height="31.126666666666665" fill="#bbdefb" opacity="0.9" rx="4"/>
+
+    <!-- Valeur au-dessus de la barre -->
+  <text x="1100" y="480.87333333333333" text-anchor="middle" class="value-label">4.06</text>
+  <text x="140" y="550" text-anchor="middle" class="bar-label">react-19</text>
+  <text x="260" y="550" text-anchor="middle" class="bar-label">angular-21</text>
+  <text x="380" y="550" text-anchor="middle" class="bar-label">react-18</text>
+  <text x="500" y="550" text-anchor="middle" class="bar-label">sveltekit</text>
+  <text x="620" y="550" text-anchor="middle" class="bar-label">qwik</text>
+  <text x="740" y="550" text-anchor="middle" class="bar-label">vue</text>
+  <text x="860" y="550" text-anchor="middle" class="bar-label">svelte</text>
+  <text x="980" y="550" text-anchor="middle" class="bar-label">preact</text>
+  <text x="1100" y="550" text-anchor="middle" class="bar-label">solid</text>
+  <text x="600" y="585" text-anchor="middle" class="axis-label">Framework</text>
+  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 12/11/2025, 11:01:47 PM</text>
+</svg>

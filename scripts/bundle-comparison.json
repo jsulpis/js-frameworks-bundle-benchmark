@@ -1,0 +1,185 @@
+[
+  {
+    "name": "react-19",
+    "sizeKB": 190.47,
+    "gzipSizeKB": 59.29,
+    "files": [
+      {
+        "path": "/assets/index-wW8jG43R.js",
+        "sizeKB": "190.47",
+        "gzipSizeKB": "59.29"
+      }
+    ]
+  },
+  {
+    "name": "angular-21",
+    "sizeKB": 183.75,
+    "gzipSizeKB": 55.78,
+    "files": [
+      {
+        "path": "main-FSKBROVE.js",
+        "sizeKB": "183.75",
+        "gzipSizeKB": "55.78"
+      }
+    ]
+  },
+  {
+    "name": "react-18",
+    "sizeKB": 140.72,
+    "gzipSizeKB": 45.14,
+    "files": [
+      {
+        "path": "/assets/index-BtsmipAz.js",
+        "sizeKB": "140.72",
+        "gzipSizeKB": "45.14"
+      }
+    ]
+  },
+  {
+    "name": "sveltekit",
+    "sizeKB": 66.46,
+    "gzipSizeKB": 26.26,
+    "files": [
+      {
+        "path": "./_app/immutable/entry/start.CfcjVLS6.js",
+        "sizeKB": "0.14",
+        "gzipSizeKB": "0.11"
+      },
+      {
+        "path": "./_app/immutable/chunks/D_6ycRQz.js",
+        "sizeKB": "1.26",
+        "gzipSizeKB": "0.73"
+      },
+      {
+        "path": "./_app/immutable/chunks/RteRImX7.js",
+        "sizeKB": "25.44",
+        "gzipSizeKB": "9.83"
+      },
+      {
+        "path": "./_app/immutable/chunks/DR-yNho0.js",
+        "sizeKB": "34.20",
+        "gzipSizeKB": "13.06"
+      },
+      {
+        "path": "./_app/immutable/entry/app.CqrZ55eq.js",
+        "sizeKB": "2.75",
+        "gzipSizeKB": "1.25"
+      },
+      {
+        "path": "./_app/immutable/chunks/BiCCI3Sb.js",
+        "sizeKB": "0.07",
+        "gzipSizeKB": "0.08"
+      },
+      {
+        "path": "./_app/immutable/nodes/0.lSzsWU8S.js",
+        "sizeKB": "2.45",
+        "gzipSizeKB": "1.02"
+      },
+      {
+        "path": "./_app/immutable/nodes/2.AJ_D1lfy.js",
+        "sizeKB": "0.13",
+        "gzipSizeKB": "0.11"
+      },
+      {
+        "path": "./_app/immutable/chunks/CZr9bm9k.js",
+        "sizeKB": "0.04",
+        "gzipSizeKB": "0.06"
+      }
+    ]
+  },
+  {
+    "name": "qwik",
+    "sizeKB": 58.89,
+    "gzipSizeKB": 24.86,
+    "files": [
+      {
+        "path": "/assets/index-ClIgAnb-.js",
+        "sizeKB": "0.33",
+        "gzipSizeKB": "0.26"
+      },
+      {
+        "path": "assets/preload-helper-BN3Y4IRI.js",
+        "sizeKB": "1.34",
+        "gzipSizeKB": "0.74"
+      },
+      {
+        "path": "assets/core.min-B7WpF2GM.js",
+        "sizeKB": "51.41",
+        "gzipSizeKB": "20.48"
+      },
+      {
+        "path": "assets/preloader-D3FyxFu3.js",
+        "sizeKB": "2.39",
+        "gzipSizeKB": "1.38"
+      },
+      {
+        "path": "assets/qwikloader-ypzHIB8w.js",
+        "sizeKB": "3.08",
+        "gzipSizeKB": "1.67"
+      },
+      {
+        "path": "assets/qwikloader-C3Uu5fv7.js",
+        "sizeKB": "0.07",
+        "gzipSizeKB": "0.08"
+      },
+      {
+        "path": "assets/preloader-0X9yysB8.js",
+        "sizeKB": "0.10",
+        "gzipSizeKB": "0.10"
+      },
+      {
+        "path": "assets/app.tsx_App_component_AkbU84a8zes-xsaREcX0.js",
+        "sizeKB": "0.17",
+        "gzipSizeKB": "0.16"
+      }
+    ]
+  },
+  {
+    "name": "vue",
+    "sizeKB": 56.94,
+    "gzipSizeKB": 22.39,
+    "files": [
+      {
+        "path": "/assets/index-BClY4yOW.js",
+        "sizeKB": "56.94",
+        "gzipSizeKB": "22.39"
+      }
+    ]
+  },
+  {
+    "name": "svelte",
+    "sizeKB": 19.1,
+    "gzipSizeKB": 7.82,
+    "files": [
+      {
+        "path": "/assets/index-B9CCoyZx.js",
+        "sizeKB": "19.10",
+        "gzipSizeKB": "7.82"
+      }
+    ]
+  },
+  {
+    "name": "preact",
+    "sizeKB": 11.35,
+    "gzipSizeKB": 4.81,
+    "files": [
+      {
+        "path": "/assets/index-DskHrXQe.js",
+        "sizeKB": "11.35",
+        "gzipSizeKB": "4.81"
+      }
+    ]
+  },
+  {
+    "name": "solid",
+    "sizeKB": 10.47,
+    "gzipSizeKB": 4.06,
+    "files": [
+      {
+        "path": "/assets/index-CQdA9RcA.js",
+        "sizeKB": "10.47",
+        "gzipSizeKB": "4.06"
+      }
+    ]
+  }
+]
