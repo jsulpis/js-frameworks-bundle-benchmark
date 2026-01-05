@@ -32,19 +32,19 @@ function generateChart() {
   const maxSize = Math.max(...validData.map((d) => d.gzipSizeKB));
   const yMax = Math.ceil(maxSize / 10) * 10; // Round up to nearest ten
 
-  // Blue shades (from dark to light)
-  const colors = [
-    "#0d47a1", // Very dark blue 3
-    "#1565c0", // Very dark blue 2
-    "#1976d2", // Very dark blue
-    "#1e88e5", // Dark blue
-    "#2196f3", // Primary blue
-    "#42a5f5", // Medium blue
-    "#64b5f6", // Medium light blue
-    "#90caf9", // Light blue
-    "#bbdefb", // Clear blue
-    "#e3f2fd", // Very light blue
-  ];
+  // Framework brand colors
+  const frameworkColors = {
+    "react-18": "#0A7EA5",
+    "react-19": "#0A7EA5",
+    "angular-21": "#DD0031",
+    vue: "#42B883",
+    "nuxt-4": "#00DC82",
+    svelte: "#FF3E00",
+    sveltekit: "#FF3E00",
+    qwik: "#AC7EF4",
+    preact: "#673AB8",
+    solid: "#2C4F7C",
+  };
 
   // Calculate positions
   const barWidth = chartWidth / validData.length;
@@ -122,7 +122,7 @@ function generateChart() {
     const x = padding.left + index * barWidth + barPadding;
     const barHeight = (item.gzipSizeKB / yMax) * chartHeight;
     const y = padding.top + chartHeight - barHeight;
-    const color = colors[index % colors.length];
+    const color = frameworkColors[item.name] || "#999999"; // Fallback to gray if framework not found
 
     // Bar
     svg += `\n  <!-- Bar ${index} -->

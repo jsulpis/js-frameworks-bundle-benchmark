@@ -63,52 +63,52 @@
   <text x="70" y="65" text-anchor="end" class="axis-label">60</text>
   <text x="20" y="300" text-anchor="middle" transform="rotate(-90 20 300)" class="axis-label">Size (KB)</text>
   <!-- Bar 0 -->
-  <rect x="90.8" y="65.44333333333333" width="86.4" height="454.5566666666667" fill="#0d47a1" opacity="0.9" rx="4"/>
+  <rect x="90.8" y="65.44333333333333" width="86.4" height="454.5566666666667" fill="#0A7EA5" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="134" y="57.44333333333333" text-anchor="middle" class="value-label">59.29</text>
   <!-- Bar 1 -->
-  <rect x="198.8" y="92.42999999999995" width="86.4" height="427.57000000000005" fill="#1565c0" opacity="0.9" rx="4"/>
+  <rect x="198.8" y="92.42999999999995" width="86.4" height="427.57000000000005" fill="#DD0031" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="242" y="84.42999999999995" text-anchor="middle" class="value-label">55.77</text>
   <!-- Bar 2 -->
-  <rect x="306.8" y="160.66333333333336" width="86.4" height="359.33666666666664" fill="#1976d2" opacity="0.9" rx="4"/>
+  <rect x="306.8" y="160.66333333333336" width="86.4" height="359.33666666666664" fill="#00DC82" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="350" y="152.66333333333336" text-anchor="middle" class="value-label">46.87</text>
   <!-- Bar 3 -->
-  <rect x="414.8" y="173.92666666666668" width="86.4" height="346.0733333333333" fill="#1e88e5" opacity="0.9" rx="4"/>
+  <rect x="414.8" y="173.92666666666668" width="86.4" height="346.0733333333333" fill="#0A7EA5" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="458" y="165.92666666666668" text-anchor="middle" class="value-label">45.14</text>
   <!-- Bar 4 -->
-  <rect x="522.8" y="306.9433333333333" width="86.4" height="213.05666666666667" fill="#2196f3" opacity="0.9" rx="4"/>
+  <rect x="522.8" y="306.9433333333333" width="86.4" height="213.05666666666667" fill="#FF3E00" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="566" y="298.9433333333333" text-anchor="middle" class="value-label">27.79</text>
   <!-- Bar 5 -->
-  <rect x="630.8" y="329.25333333333333" width="86.4" height="190.74666666666664" fill="#42a5f5" opacity="0.9" rx="4"/>
+  <rect x="630.8" y="329.25333333333333" width="86.4" height="190.74666666666664" fill="#AC7EF4" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="674" y="321.25333333333333" text-anchor="middle" class="value-label">24.88</text>
   <!-- Bar 6 -->
-  <rect x="738.8" y="348.3433333333333" width="86.4" height="171.6566666666667" fill="#64b5f6" opacity="0.9" rx="4"/>
+  <rect x="738.8" y="348.3433333333333" width="86.4" height="171.6566666666667" fill="#42B883" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="782" y="340.3433333333333" text-anchor="middle" class="value-label">22.39</text>
   <!-- Bar 7 -->
-  <rect x="846.8" y="460.0466666666667" width="86.4" height="59.95333333333333" fill="#90caf9" opacity="0.9" rx="4"/>
+  <rect x="846.8" y="460.0466666666667" width="86.4" height="59.95333333333333" fill="#FF3E00" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="890" y="452.0466666666667" text-anchor="middle" class="value-label">7.82</text>
   <!-- Bar 8 -->
-  <rect x="954.8" y="483.12333333333333" width="86.4" height="36.876666666666665" fill="#bbdefb" opacity="0.9" rx="4"/>
+  <rect x="954.8" y="483.12333333333333" width="86.4" height="36.876666666666665" fill="#673AB8" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="998" y="475.12333333333333" text-anchor="middle" class="value-label">4.81</text>
   <!-- Bar 9 -->
-  <rect x="1062.8" y="488.87333333333333" width="86.4" height="31.126666666666665" fill="#e3f2fd" opacity="0.9" rx="4"/>
+  <rect x="1062.8" y="488.87333333333333" width="86.4" height="31.126666666666665" fill="#2C4F7C" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
   <text x="1106" y="480.87333333333333" text-anchor="middle" class="value-label">4.06</text>
@@ -123,5 +123,5 @@
   <text x="998" y="550" text-anchor="middle" class="bar-label">preact</text>
   <text x="1106" y="550" text-anchor="middle" class="bar-label">solid</text>
   <text x="600" y="585" text-anchor="middle" class="axis-label">Framework</text>
-  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 12/17/2025, 11:35:06 PM</text>
+  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/5/2026, 10:22:11 PM</text>
 </svg>
