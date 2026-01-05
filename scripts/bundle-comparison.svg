@@ -63,59 +63,65 @@
   <text x="70" y="65" text-anchor="end" class="axis-label">60</text>
   <text x="20" y="300" text-anchor="middle" transform="rotate(-90 20 300)" class="axis-label">Size (KB)</text>
   <!-- Bar 0 -->
-  <rect x="92" y="65.44333333333333" width="96" height="454.5566666666667" fill="#0d47a1" opacity="0.9" rx="4"/>
+  <rect x="90.8" y="65.44333333333333" width="86.4" height="454.5566666666667" fill="#0d47a1" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="140" y="57.44333333333333" text-anchor="middle" class="value-label">59.29</text>
+    <!-- Value above bar -->
+  <text x="134" y="57.44333333333333" text-anchor="middle" class="value-label">59.29</text>
   <!-- Bar 1 -->
-  <rect x="212" y="92.35333333333335" width="96" height="427.64666666666665" fill="#1565c0" opacity="0.9" rx="4"/>
+  <rect x="198.8" y="92.42999999999995" width="86.4" height="427.57000000000005" fill="#1565c0" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="260" y="84.35333333333335" text-anchor="middle" class="value-label">55.78</text>
+    <!-- Value above bar -->
+  <text x="242" y="84.42999999999995" text-anchor="middle" class="value-label">55.77</text>
   <!-- Bar 2 -->
-  <rect x="332" y="173.92666666666668" width="96" height="346.0733333333333" fill="#1976d2" opacity="0.9" rx="4"/>
+  <rect x="306.8" y="160.66333333333336" width="86.4" height="359.33666666666664" fill="#1976d2" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="380" y="165.92666666666668" text-anchor="middle" class="value-label">45.14</text>
+    <!-- Value above bar -->
+  <text x="350" y="152.66333333333336" text-anchor="middle" class="value-label">46.87</text>
   <!-- Bar 3 -->
-  <rect x="452" y="318.6733333333333" width="96" height="201.32666666666668" fill="#1e88e5" opacity="0.9" rx="4"/>
+  <rect x="414.8" y="173.92666666666668" width="86.4" height="346.0733333333333" fill="#1e88e5" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="500" y="310.6733333333333" text-anchor="middle" class="value-label">26.26</text>
+    <!-- Value above bar -->
+  <text x="458" y="165.92666666666668" text-anchor="middle" class="value-label">45.14</text>
   <!-- Bar 4 -->
-  <rect x="572" y="329.40666666666664" width="96" height="190.59333333333333" fill="#2196f3" opacity="0.9" rx="4"/>
+  <rect x="522.8" y="306.9433333333333" width="86.4" height="213.05666666666667" fill="#2196f3" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="620" y="321.40666666666664" text-anchor="middle" class="value-label">24.86</text>
+    <!-- Value above bar -->
+  <text x="566" y="298.9433333333333" text-anchor="middle" class="value-label">27.79</text>
   <!-- Bar 5 -->
-  <rect x="692" y="348.3433333333333" width="96" height="171.6566666666667" fill="#42a5f5" opacity="0.9" rx="4"/>
+  <rect x="630.8" y="329.25333333333333" width="86.4" height="190.74666666666664" fill="#42a5f5" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="740" y="340.3433333333333" text-anchor="middle" class="value-label">22.39</text>
+    <!-- Value above bar -->
+  <text x="674" y="321.25333333333333" text-anchor="middle" class="value-label">24.88</text>
   <!-- Bar 6 -->
-  <rect x="812" y="460.0466666666667" width="96" height="59.95333333333333" fill="#64b5f6" opacity="0.9" rx="4"/>
+  <rect x="738.8" y="348.3433333333333" width="86.4" height="171.6566666666667" fill="#64b5f6" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="860" y="452.0466666666667" text-anchor="middle" class="value-label">7.82</text>
+    <!-- Value above bar -->
+  <text x="782" y="340.3433333333333" text-anchor="middle" class="value-label">22.39</text>
   <!-- Bar 7 -->
-  <rect x="932" y="483.12333333333333" width="96" height="36.876666666666665" fill="#90caf9" opacity="0.9" rx="4"/>
+  <rect x="846.8" y="460.0466666666667" width="86.4" height="59.95333333333333" fill="#90caf9" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="980" y="475.12333333333333" text-anchor="middle" class="value-label">4.81</text>
+    <!-- Value above bar -->
+  <text x="890" y="452.0466666666667" text-anchor="middle" class="value-label">7.82</text>
   <!-- Bar 8 -->
-  <rect x="1052" y="488.87333333333333" width="96" height="31.126666666666665" fill="#bbdefb" opacity="0.9" rx="4"/>
+  <rect x="954.8" y="483.12333333333333" width="86.4" height="36.876666666666665" fill="#bbdefb" opacity="0.9" rx="4"/>
 
-    <!-- Valeur au-dessus de la barre -->
-  <text x="1100" y="480.87333333333333" text-anchor="middle" class="value-label">4.06</text>
-  <text x="140" y="550" text-anchor="middle" class="bar-label">react-19</text>
-  <text x="260" y="550" text-anchor="middle" class="bar-label">angular-21</text>
-  <text x="380" y="550" text-anchor="middle" class="bar-label">react-18</text>
-  <text x="500" y="550" text-anchor="middle" class="bar-label">sveltekit</text>
-  <text x="620" y="550" text-anchor="middle" class="bar-label">qwik</text>
-  <text x="740" y="550" text-anchor="middle" class="bar-label">vue</text>
-  <text x="860" y="550" text-anchor="middle" class="bar-label">svelte</text>
-  <text x="980" y="550" text-anchor="middle" class="bar-label">preact</text>
-  <text x="1100" y="550" text-anchor="middle" class="bar-label">solid</text>
+    <!-- Value above bar -->
+  <text x="998" y="475.12333333333333" text-anchor="middle" class="value-label">4.81</text>
+  <!-- Bar 9 -->
+  <rect x="1062.8" y="488.87333333333333" width="86.4" height="31.126666666666665" fill="#e3f2fd" opacity="0.9" rx="4"/>
+
+    <!-- Value above bar -->
+  <text x="1106" y="480.87333333333333" text-anchor="middle" class="value-label">4.06</text>
+  <text x="134" y="550" text-anchor="middle" class="bar-label">react-19</text>
+  <text x="242" y="550" text-anchor="middle" class="bar-label">angular-21</text>
+  <text x="350" y="550" text-anchor="middle" class="bar-label">nuxt-4</text>
+  <text x="458" y="550" text-anchor="middle" class="bar-label">react-18</text>
+  <text x="566" y="550" text-anchor="middle" class="bar-label">sveltekit</text>
+  <text x="674" y="550" text-anchor="middle" class="bar-label">qwik</text>
+  <text x="782" y="550" text-anchor="middle" class="bar-label">vue</text>
+  <text x="890" y="550" text-anchor="middle" class="bar-label">svelte</text>
+  <text x="998" y="550" text-anchor="middle" class="bar-label">preact</text>
+  <text x="1106" y="550" text-anchor="middle" class="bar-label">solid</text>
   <text x="600" y="585" text-anchor="middle" class="axis-label">Framework</text>
-  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 12/11/2025, 11:01:47 PM</text>
+  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 12/17/2025, 11:35:06 PM</text>
 </svg>

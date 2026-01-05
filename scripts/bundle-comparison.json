@@ -5,7 +5,7 @@
     "gzipSizeKB": 59.29,
     "files": [
       {
-        "path": "/assets/index-wW8jG43R.js",
+        "path": "/assets/index-C4AAN05F.js",
         "sizeKB": "190.47",
         "gzipSizeKB": "59.29"
       }
@@ -13,13 +13,25 @@
   },
   {
     "name": "angular-21",
-    "sizeKB": 183.75,
-    "gzipSizeKB": 55.78,
+    "sizeKB": 183.68,
+    "gzipSizeKB": 55.77,
     "files": [
       {
-        "path": "main-FSKBROVE.js",
-        "sizeKB": "183.75",
-        "gzipSizeKB": "55.78"
+        "path": "main-YHAA4C4J.js",
+        "sizeKB": "183.68",
+        "gzipSizeKB": "55.77"
+      }
+    ]
+  },
+  {
+    "name": "nuxt-4",
+    "sizeKB": 122.17,
+    "gzipSizeKB": 46.87,
+    "files": [
+      {
+        "path": "/_nuxt/BoTXJ7Og.js",
+        "sizeKB": "122.17",
+        "gzipSizeKB": "46.87"
       }
     ]
   },
@@ -29,7 +41,7 @@
     "gzipSizeKB": 45.14,
     "files": [
       {
-        "path": "/assets/index-BtsmipAz.js",
+        "path": "/assets/index-COrjuJBb.js",
         "sizeKB": "140.72",
         "gzipSizeKB": "45.14"
       }
@@ -37,65 +49,90 @@
   },
   {
     "name": "sveltekit",
-    "sizeKB": 66.46,
-    "gzipSizeKB": 26.26,
+    "sizeKB": 66.41,
+    "gzipSizeKB": 27.79,
     "files": [
       {
-        "path": "./_app/immutable/entry/start.CfcjVLS6.js",
-        "sizeKB": "0.14",
-        "gzipSizeKB": "0.11"
+        "path": "./_app/immutable/entry/start.D23CJPq7.js",
+        "sizeKB": "0.08",
+        "gzipSizeKB": "0.09"
       },
       {
-        "path": "./_app/immutable/chunks/D_6ycRQz.js",
-        "sizeKB": "1.26",
-        "gzipSizeKB": "0.73"
+        "path": "./_app/immutable/chunks/BofRi-Wc.js",
+        "sizeKB": "26.13",
+        "gzipSizeKB": "10.28"
       },
       {
-        "path": "./_app/immutable/chunks/RteRImX7.js",
-        "sizeKB": "25.44",
-        "gzipSizeKB": "9.83"
+        "path": "./_app/immutable/chunks/CDnSVXMm.js",
+        "sizeKB": "21.65",
+        "gzipSizeKB": "8.48"
       },
       {
-        "path": "./_app/immutable/chunks/DR-yNho0.js",
-        "sizeKB": "34.20",
-        "gzipSizeKB": "13.06"
+        "path": "./_app/immutable/chunks/DIeogL5L.js",
+        "sizeKB": "0.06",
+        "gzipSizeKB": "0.08"
       },
       {
-        "path": "./_app/immutable/entry/app.CqrZ55eq.js",
-        "sizeKB": "2.75",
-        "gzipSizeKB": "1.25"
+        "path": "./_app/immutable/chunks/CPx2ktkd.js",
+        "sizeKB": "0.27",
+        "gzipSizeKB": "0.22"
       },
       {
-        "path": "./_app/immutable/chunks/BiCCI3Sb.js",
+        "path": "./_app/immutable/entry/app.D4U8s7j-.js",
+        "sizeKB": "6.93",
+        "gzipSizeKB": "3.22"
+      },
+      {
+        "path": "./_app/immutable/chunks/DgUSR-TB.js",
+        "sizeKB": "5.27",
+        "gzipSizeKB": "2.42"
+      },
+      {
+        "path": "./_app/immutable/chunks/nDpzfra4.js",
+        "sizeKB": "0.98",
+        "gzipSizeKB": "0.55"
+      },
+      {
+        "path": "./_app/immutable/chunks/DsnmJJEf.js",
         "sizeKB": "0.07",
         "gzipSizeKB": "0.08"
       },
       {
-        "path": "./_app/immutable/nodes/0.lSzsWU8S.js",
-        "sizeKB": "2.45",
-        "gzipSizeKB": "1.02"
+        "path": "./_app/immutable/chunks/Cz1b8nnV.js",
+        "sizeKB": "1.53",
+        "gzipSizeKB": "0.67"
       },
       {
-        "path": "./_app/immutable/nodes/2.AJ_D1lfy.js",
-        "sizeKB": "0.13",
-        "gzipSizeKB": "0.11"
+        "path": "./_app/immutable/nodes/0.BpWRy98Y.js",
+        "sizeKB": "3.31",
+        "gzipSizeKB": "1.54"
       },
       {
-        "path": "./_app/immutable/chunks/CZr9bm9k.js",
-        "sizeKB": "0.04",
-        "gzipSizeKB": "0.06"
+        "path": "./_app/immutable/nodes/2.DPzO339H.js",
+        "sizeKB": "0.10",
+        "gzipSizeKB": "0.10"
+      },
+      {
+        "path": "./_app/immutable/chunks/69_IOA4Y.js",
+        "sizeKB": "0.03",
+        "gzipSizeKB": "0.05"
       }
     ]
   },
   {
     "name": "qwik",
-    "sizeKB": 58.89,
-    "gzipSizeKB": 24.86,
+    "sizeKB": 58.93,
+    "gzipSizeKB": 24.88,
     "files": [
       {
-        "path": "/assets/index-ClIgAnb-.js",
+        "path": "/assets/index-JqXfSLb0.js",
         "sizeKB": "0.33",
         "gzipSizeKB": "0.26"
+      },
+      {
+        "path": "assets/core.min-Cb5o8Wut.js",
+        "sizeKB": "51.45",
+        "gzipSizeKB": "20.50"
       },
       {
         "path": "assets/preload-helper-BN3Y4IRI.js",
@@ -103,34 +140,29 @@
         "gzipSizeKB": "0.74"
       },
       {
-        "path": "assets/core.min-B7WpF2GM.js",
-        "sizeKB": "51.41",
-        "gzipSizeKB": "20.48"
-      },
-      {
-        "path": "assets/preloader-D3FyxFu3.js",
+        "path": "assets/preloader-Crl9F_C1.js",
         "sizeKB": "2.39",
         "gzipSizeKB": "1.38"
       },
       {
-        "path": "assets/qwikloader-ypzHIB8w.js",
-        "sizeKB": "3.08",
-        "gzipSizeKB": "1.67"
+        "path": "assets/app.tsx_App_component_AkbU84a8zes-DqPXfTBF.js",
+        "sizeKB": "0.17",
+        "gzipSizeKB": "0.16"
       },
       {
-        "path": "assets/qwikloader-C3Uu5fv7.js",
-        "sizeKB": "0.07",
-        "gzipSizeKB": "0.08"
-      },
-      {
-        "path": "assets/preloader-0X9yysB8.js",
+        "path": "assets/preloader-Ld4ukoM1.js",
         "sizeKB": "0.10",
         "gzipSizeKB": "0.10"
       },
       {
-        "path": "assets/app.tsx_App_component_AkbU84a8zes-xsaREcX0.js",
-        "sizeKB": "0.17",
-        "gzipSizeKB": "0.16"
+        "path": "assets/qwikloader-DyCKQbp5.js",
+        "sizeKB": "0.07",
+        "gzipSizeKB": "0.08"
+      },
+      {
+        "path": "assets/qwikloader-EJjBiLZF.js",
+        "sizeKB": "3.08",
+        "gzipSizeKB": "1.67"
       }
     ]
   },
@@ -140,7 +172,7 @@
     "gzipSizeKB": 22.39,
     "files": [
       {
-        "path": "/assets/index-BClY4yOW.js",
+        "path": "/assets/index-NCEGc-bt.js",
         "sizeKB": "56.94",
         "gzipSizeKB": "22.39"
       }
@@ -152,7 +184,7 @@
     "gzipSizeKB": 7.82,
     "files": [
       {
-        "path": "/assets/index-B9CCoyZx.js",
+        "path": "/assets/index-BqDcB4P1.js",
         "sizeKB": "19.10",
         "gzipSizeKB": "7.82"
       }
@@ -164,7 +196,7 @@
     "gzipSizeKB": 4.81,
     "files": [
       {
-        "path": "/assets/index-DskHrXQe.js",
+        "path": "/assets/index-BM9wJrdf.js",
         "sizeKB": "11.35",
         "gzipSizeKB": "4.81"
       }
@@ -176,7 +208,7 @@
     "gzipSizeKB": 4.06,
     "files": [
       {
-        "path": "/assets/index-CQdA9RcA.js",
+        "path": "/assets/index-euwS5S_O.js",
         "sizeKB": "10.47",
         "gzipSizeKB": "4.06"
       }
