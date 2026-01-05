@@ -1,9 +1,6 @@
 {
   "name": "frameworks-overhead-comparison",
   "type": "module",
-  "workspaces": [
-    "apps/*"
-  ],
   "scripts": {
     "chart": "bun scripts/generate-chart.js",
     "measure": "bun scripts/measure-bundles.js && bun scripts/generate-chart.js"
