@@ -119,12 +119,12 @@
     "gzipSizeKB": 27.79,
     "files": [
       {
-        "path": "./_app/immutable/entry/start.CRXBBizo.js",
+        "path": "./_app/immutable/entry/start.a6uRivXr.js",
         "sizeKB": "0.08",
         "gzipSizeKB": "0.09"
       },
       {
-        "path": "./_app/immutable/chunks/WCjj8Azw.js",
+        "path": "./_app/immutable/chunks/B7pZxE8M.js",
         "sizeKB": "26.13",
         "gzipSizeKB": "10.28"
       },
@@ -144,7 +144,7 @@
         "gzipSizeKB": "0.22"
       },
       {
-        "path": "./_app/immutable/entry/app.DlE59qVP.js",
+        "path": "./_app/immutable/entry/app.CRG5jRAw.js",
         "sizeKB": "6.93",
         "gzipSizeKB": "3.22"
       },
@@ -241,6 +241,18 @@
         "path": "/assets/index-NCEGc-bt.js",
         "sizeKB": "56.94",
         "gzipSizeKB": "22.39"
+      }
+    ]
+  },
+  {
+    "name": "solid-start",
+    "sizeKB": 46.23,
+    "gzipSizeKB": 17.61,
+    "files": [
+      {
+        "path": "/_build/assets/client-DSad78t4.js",
+        "sizeKB": "46.23",
+        "gzipSizeKB": "17.61"
       }
     ]
   },

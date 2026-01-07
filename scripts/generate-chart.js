@@ -44,6 +44,7 @@ function generateChart() {
     qwik: "#AC7EF4",
     preact: "#673AB8",
     solid: "#2C4F7C",
+    "solid-start": "#2C4F7C",
     "next-16": "#000",
     "tanstack-react": "#06BABE",
     "tanstack-solid": "#06BABE",
