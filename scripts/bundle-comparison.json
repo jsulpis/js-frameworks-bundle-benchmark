@@ -1,5 +1,54 @@
 [
   {
+    "name": "next-16",
+    "sizeKB": 439.9,
+    "gzipSizeKB": 127.32,
+    "files": [
+      {
+        "path": "/_next/static/chunks/0524909a4bd87807.js",
+        "sizeKB": "224.74",
+        "gzipSizeKB": "70.14"
+      },
+      {
+        "path": "/_next/static/chunks/49c4215b01a0c481.js",
+        "sizeKB": "168.38",
+        "gzipSizeKB": "43.53"
+      },
+      {
+        "path": "/_next/static/chunks/turbopack-314e925bb4f16d1a.js",
+        "sizeKB": "10.21",
+        "gzipSizeKB": "4.00"
+      },
+      {
+        "path": "/_next/static/chunks/f34f8998e7b30b6d.js",
+        "sizeKB": "30.89",
+        "gzipSizeKB": "7.46"
+      },
+      {
+        "path": "/_next/static/chunks/c96c5280698d48d7.js",
+        "sizeKB": "5.67",
+        "gzipSizeKB": "2.19"
+      }
+    ]
+  },
+  {
+    "name": "tanstack-react",
+    "sizeKB": 311.35,
+    "gzipSizeKB": 99.19,
+    "files": [
+      {
+        "path": "/assets/main-CpkdKXiG.js",
+        "sizeKB": "311.24",
+        "gzipSizeKB": "99.07"
+      },
+      {
+        "path": "/assets/index-CE_ZnOA0.js",
+        "sizeKB": "0.10",
+        "gzipSizeKB": "0.12"
+      }
+    ]
+  },
+  {
     "name": "react-19",
     "sizeKB": 190.47,
     "gzipSizeKB": 59.29,
@@ -24,12 +73,29 @@
     ]
   },
   {
+    "name": "tanstack-solid",
+    "sizeKB": 145.91,
+    "gzipSizeKB": 48.57,
+    "files": [
+      {
+        "path": "/assets/main-Ch6fJjXh.js",
+        "sizeKB": "145.86",
+        "gzipSizeKB": "48.51"
+      },
+      {
+        "path": "/assets/index-DzylD7fM.js",
+        "sizeKB": "0.05",
+        "gzipSizeKB": "0.07"
+      }
+    ]
+  },
+  {
     "name": "nuxt-4",
     "sizeKB": 122.17,
     "gzipSizeKB": 46.87,
     "files": [
       {
-        "path": "/_nuxt/BoTXJ7Og.js",
+        "path": "/_nuxt/PPSJW1Tj.js",
         "sizeKB": "122.17",
         "gzipSizeKB": "46.87"
       }
@@ -53,12 +119,12 @@
     "gzipSizeKB": 27.79,
     "files": [
       {
-        "path": "./_app/immutable/entry/start.D23CJPq7.js",
+        "path": "./_app/immutable/entry/start.CRXBBizo.js",
         "sizeKB": "0.08",
         "gzipSizeKB": "0.09"
       },
       {
-        "path": "./_app/immutable/chunks/BofRi-Wc.js",
+        "path": "./_app/immutable/chunks/WCjj8Azw.js",
         "sizeKB": "26.13",
         "gzipSizeKB": "10.28"
       },
@@ -78,7 +144,7 @@
         "gzipSizeKB": "0.22"
       },
       {
-        "path": "./_app/immutable/entry/app.D4U8s7j-.js",
+        "path": "./_app/immutable/entry/app.DlE59qVP.js",
         "sizeKB": "6.93",
         "gzipSizeKB": "3.22"
       },
@@ -125,14 +191,19 @@
     "gzipSizeKB": 24.88,
     "files": [
       {
-        "path": "/assets/index-JqXfSLb0.js",
+        "path": "/assets/index-DEagO-z_.js",
         "sizeKB": "0.33",
         "gzipSizeKB": "0.26"
       },
       {
-        "path": "assets/core.min-Cb5o8Wut.js",
-        "sizeKB": "51.45",
-        "gzipSizeKB": "20.50"
+        "path": "assets/preloader-CG6wqg_9.js",
+        "sizeKB": "0.10",
+        "gzipSizeKB": "0.10"
+      },
+      {
+        "path": "assets/preloader-S3N1kv5c.js",
+        "sizeKB": "2.39",
+        "gzipSizeKB": "1.38"
       },
       {
         "path": "assets/preload-helper-BN3Y4IRI.js",
@@ -140,29 +211,24 @@
         "gzipSizeKB": "0.74"
       },
       {
-        "path": "assets/preloader-Crl9F_C1.js",
-        "sizeKB": "2.39",
-        "gzipSizeKB": "1.38"
-      },
-      {
-        "path": "assets/app.tsx_App_component_AkbU84a8zes-DqPXfTBF.js",
-        "sizeKB": "0.17",
-        "gzipSizeKB": "0.16"
-      },
-      {
-        "path": "assets/preloader-Ld4ukoM1.js",
-        "sizeKB": "0.10",
-        "gzipSizeKB": "0.10"
-      },
-      {
-        "path": "assets/qwikloader-DyCKQbp5.js",
+        "path": "assets/qwikloader-BFaY64MI.js",
         "sizeKB": "0.07",
         "gzipSizeKB": "0.08"
       },
       {
-        "path": "assets/qwikloader-EJjBiLZF.js",
+        "path": "assets/core.min-CJppAhJZ.js",
+        "sizeKB": "51.45",
+        "gzipSizeKB": "20.50"
+      },
+      {
+        "path": "assets/qwikloader-CV-913rM.js",
         "sizeKB": "3.08",
         "gzipSizeKB": "1.67"
+      },
+      {
+        "path": "assets/app.tsx_App_component_AkbU84a8zes-Dc_dqJIk.js",
+        "sizeKB": "0.17",
+        "gzipSizeKB": "0.16"
       }
     ]
   },
