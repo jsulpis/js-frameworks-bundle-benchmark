@@ -21,10 +21,22 @@ function parseHTMLForScripts(htmlPath) {
   const content = fs.readFileSync(htmlPath, "utf-8");
   const scripts = new Set();
 
-  const scriptSrcRegex = /<script[^>]*\ssrc=["']([^"']+)["'][^>]*>/g;
+  // Match script tags and extract src with full tag context to check attributes
+  const scriptTagRegex = /<script([^>]*)>/g;
   let match;
-  while ((match = scriptSrcRegex.exec(content)) !== null) {
-    scripts.add(match[1]);
+  while ((match = scriptTagRegex.exec(content)) !== null) {
+    const attributes = match[1];
+
+    // Skip scripts with noModule attribute (legacy fallback for older browsers)
+    if (/noModule/i.test(attributes)) {
+      continue;
+    }
+
+    // Extract src attribute
+    const srcMatch = attributes.match(/\ssrc=["']([^"']+)["']/);
+    if (srcMatch) {
+      scripts.add(srcMatch[1]);
+    }
   }
 
   const modulePreloadRegex =

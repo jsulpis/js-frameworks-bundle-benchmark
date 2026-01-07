@@ -44,6 +44,9 @@ function generateChart() {
     qwik: "#AC7EF4",
     preact: "#673AB8",
     solid: "#2C4F7C",
+    "next-16": "#000",
+    "tanstack-react": "#06BABE",
+    "tanstack-solid": "#06BABE",
   };
 
   // Calculate positions
@@ -79,10 +82,7 @@ function generateChart() {
   <!-- Title -->
   <text x="${
     width / 2
-  }" y="40" text-anchor="middle" class="title">Framework Bundle Size Comparison</text>
-  <text x="${
-    width / 2
-  }" y="55" text-anchor="middle" class="subtitle">JavaScript bundle size (gzipped) in KB</text>
+  }" y="40" text-anchor="middle" class="title">JavaScript Frameworks Bare Bones Weight</text>
 
   <!-- Y-axis -->
   <line x1="${padding.left}" y1="${padding.top}" x2="${padding.left}" y2="${
@@ -115,7 +115,7 @@ function generateChart() {
     height / 2
   }" text-anchor="middle" transform="rotate(-90 20 ${
     height / 2
-  })" class="axis-label">Size (KB)</text>`;
+  })" class="axis-label">JS bundle size (KB)</text>`;
 
   // Bars
   validData.forEach((item, index) => {
