@@ -114,17 +114,44 @@
     ]
   },
   {
+    "name": "vitepress",
+    "sizeKB": 87.02,
+    "gzipSizeKB": 34.93,
+    "files": [
+      {
+        "path": "/assets/app.4usAvFJf.js",
+        "sizeKB": "1.34",
+        "gzipSizeKB": "0.73"
+      },
+      {
+        "path": "/assets/chunks/theme.BctiUqYm.js",
+        "sizeKB": "0.22",
+        "gzipSizeKB": "0.20"
+      },
+      {
+        "path": "/assets/chunks/framework.DCtQzrAU.js",
+        "sizeKB": "85.13",
+        "gzipSizeKB": "33.75"
+      },
+      {
+        "path": "/assets/index.md.Cd0XdDDU.lean.js",
+        "sizeKB": "0.33",
+        "gzipSizeKB": "0.25"
+      }
+    ]
+  },
+  {
     "name": "sveltekit",
     "sizeKB": 66.41,
     "gzipSizeKB": 27.79,
     "files": [
       {
-        "path": "./_app/immutable/entry/start.a6uRivXr.js",
+        "path": "./_app/immutable/entry/start.DcMD6LO2.js",
         "sizeKB": "0.08",
         "gzipSizeKB": "0.09"
       },
       {
-        "path": "./_app/immutable/chunks/B7pZxE8M.js",
+        "path": "./_app/immutable/chunks/DDdVC5iK.js",
         "sizeKB": "26.13",
         "gzipSizeKB": "10.28"
       },
@@ -144,7 +171,7 @@
         "gzipSizeKB": "0.22"
       },
       {
-        "path": "./_app/immutable/entry/app.CRG5jRAw.js",
+        "path": "./_app/immutable/entry/app.CzxGcTjg.js",
         "sizeKB": "6.93",
         "gzipSizeKB": "3.22"
       },
