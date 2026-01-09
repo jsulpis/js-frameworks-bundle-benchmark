@@ -32,6 +32,33 @@
     ]
   },
   {
+    "name": "react-router",
+    "sizeKB": 314.48,
+    "gzipSizeKB": 102.23,
+    "files": [
+      {
+        "path": "/assets/entry.client-4vA1zoKN.js",
+        "sizeKB": "190.41",
+        "gzipSizeKB": "60.02"
+      },
+      {
+        "path": "/assets/chunk-EPOLDU6W-BOFQh_Iy.js",
+        "sizeKB": "123.34",
+        "gzipSizeKB": "41.68"
+      },
+      {
+        "path": "/assets/root-Bgi1z1rY.js",
+        "sizeKB": "0.48",
+        "gzipSizeKB": "0.31"
+      },
+      {
+        "path": "/assets/home-R0iD60ro.js",
+        "sizeKB": "0.25",
+        "gzipSizeKB": "0.22"
+      }
+    ]
+  },
+  {
     "name": "tanstack-react",
     "sizeKB": 311.35,
     "gzipSizeKB": 99.19,
@@ -45,6 +72,18 @@
         "path": "/assets/index-CE_ZnOA0.js",
         "sizeKB": "0.10",
         "gzipSizeKB": "0.12"
+      }
+    ]
+  },
+  {
+    "name": "analog",
+    "sizeKB": 258.69,
+    "gzipSizeKB": 78.7,
+    "files": [
+      {
+        "path": "/assets/index-f-DzbF3S.js",
+        "sizeKB": "258.69",
+        "gzipSizeKB": "78.70"
       }
     ]
   },
@@ -66,7 +105,7 @@
     "gzipSizeKB": 55.77,
     "files": [
       {
-        "path": "main-YHAA4C4J.js",
+        "path": "main-NCZZWIVO.js",
         "sizeKB": "183.68",
         "gzipSizeKB": "55.77"
       }
@@ -95,7 +134,7 @@
     "gzipSizeKB": 46.87,
     "files": [
       {
-        "path": "/_nuxt/PPSJW1Tj.js",
+        "path": "/_nuxt/Di_ZdvXA.js",
         "sizeKB": "122.17",
         "gzipSizeKB": "46.87"
       }
@@ -146,12 +185,12 @@
     "gzipSizeKB": 27.79,
     "files": [
       {
-        "path": "./_app/immutable/entry/start.DcMD6LO2.js",
+        "path": "./_app/immutable/entry/start.qgFKY05y.js",
         "sizeKB": "0.08",
         "gzipSizeKB": "0.09"
       },
       {
-        "path": "./_app/immutable/chunks/DDdVC5iK.js",
+        "path": "./_app/immutable/chunks/CvtkZSnX.js",
         "sizeKB": "26.13",
         "gzipSizeKB": "10.28"
       },
@@ -171,7 +210,7 @@
         "gzipSizeKB": "0.22"
       },
       {
-        "path": "./_app/immutable/entry/app.CzxGcTjg.js",
+        "path": "./_app/immutable/entry/app.CoxT9OTa.js",
         "sizeKB": "6.93",
         "gzipSizeKB": "3.22"
       },

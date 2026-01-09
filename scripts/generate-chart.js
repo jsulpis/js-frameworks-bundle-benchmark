@@ -49,6 +49,8 @@ function generateChart() {
     "tanstack-react": "#06BABE",
     "tanstack-solid": "#06BABE",
     vitepress: "#3F63DD",
+    "react-router": "#F44250",
+    analog: "#FC2853",
   };
 
   // Calculate positions
@@ -73,7 +75,7 @@ function generateChart() {
       .axis-label { font-size: 12px; fill: #666; }
       .grid-line { stroke: #e0e0e0; stroke-width: 1; }
       .axis { stroke: #333; stroke-width: 2; }
-      .bar-label { font-size: 11px; fill: #333; font-weight: 500; }
+      .bar-label { font-size: 12px; fill: #333; font-weight: 500; }
       .value-label { font-size: 12px; fill: #333; font-weight: bold; }
     </style>
   </defs>
@@ -140,10 +142,10 @@ function generateChart() {
 
   // X-axis labels
   validData.forEach((item, index) => {
-    const x = padding.left + index * barWidth + barWidth / 2;
-    const y = height - padding.bottom + 20;
+    const x = padding.left + index * barWidth + barWidth * 0.6;
+    const y = height - padding.bottom + 15;
 
-    svg += `\n  <text x="${x}" y="${y}" text-anchor="middle" class="bar-label">${item.name}</text>`;
+    svg += `\n  <text x="${x}" y="${y}" text-anchor="end" transform="rotate(-45 ${x} ${y})" class="bar-label">${item.name}</text>`;
   });
 
   // X-axis label

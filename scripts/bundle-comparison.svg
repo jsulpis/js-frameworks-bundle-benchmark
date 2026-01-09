@@ -9,7 +9,7 @@
       .axis-label { font-size: 12px; fill: #666; }
       .grid-line { stroke: #e0e0e0; stroke-width: 1; }
       .axis { stroke: #333; stroke-width: 2; }
-      .bar-label { font-size: 11px; fill: #333; font-weight: 500; }
+      .bar-label { font-size: 12px; fill: #333; font-weight: 500; }
       .value-label { font-size: 12px; fill: #333; font-weight: bold; }
     </style>
   </defs>
@@ -62,95 +62,107 @@
   <text x="70" y="65" text-anchor="end" class="axis-label">130</text>
   <text x="20" y="300" text-anchor="middle" transform="rotate(-90 20 300)" class="axis-label">JS bundle size (KB)</text>
   <!-- Bar 0 -->
-  <rect x="87.2" y="69.48307692307696" width="57.6" height="450.51692307692304" fill="#000" opacity="0.9" rx="4"/>
+  <rect x="86.3529411764706" y="69.48307692307696" width="50.82352941176471" height="450.51692307692304" fill="#000" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="116" y="61.483076923076965" text-anchor="middle" class="value-label">127.32</text>
+  <text x="111.76470588235296" y="61.483076923076965" text-anchor="middle" class="value-label">127.32</text>
   <!-- Bar 1 -->
-  <rect x="159.2" y="169.01999999999998" width="57.6" height="350.98" fill="#06BABE" opacity="0.9" rx="4"/>
+  <rect x="149.88235294117646" y="158.26307692307688" width="50.82352941176471" height="361.7369230769231" fill="#F44250" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="188" y="161.01999999999998" text-anchor="middle" class="value-label">99.19</text>
+  <text x="175.2941176470588" y="150.26307692307688" text-anchor="middle" class="value-label">102.23</text>
   <!-- Bar 2 -->
-  <rect x="231.2" y="310.2046153846154" width="57.6" height="209.7953846153846" fill="#0A7EA5" opacity="0.9" rx="4"/>
+  <rect x="213.41176470588235" y="169.01999999999998" width="50.82352941176471" height="350.98" fill="#06BABE" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="260" y="302.2046153846154" text-anchor="middle" class="value-label">59.29</text>
+  <text x="238.8235294117647" y="161.01999999999998" text-anchor="middle" class="value-label">99.19</text>
   <!-- Bar 3 -->
-  <rect x="303.2" y="322.65999999999997" width="57.6" height="197.34000000000003" fill="#DD0031" opacity="0.9" rx="4"/>
+  <rect x="276.9411764705883" y="241.52307692307693" width="50.82352941176471" height="278.4769230769231" fill="#FC2853" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="332" y="314.65999999999997" text-anchor="middle" class="value-label">55.77</text>
+  <text x="302.35294117647067" y="233.52307692307693" text-anchor="middle" class="value-label">78.7</text>
   <!-- Bar 4 -->
-  <rect x="375.2" y="348.13692307692304" width="57.6" height="171.86307692307693" fill="#06BABE" opacity="0.9" rx="4"/>
+  <rect x="340.47058823529414" y="310.2046153846154" width="50.82352941176471" height="209.7953846153846" fill="#0A7EA5" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="404" y="340.13692307692304" text-anchor="middle" class="value-label">48.57</text>
+  <text x="365.8823529411765" y="302.2046153846154" text-anchor="middle" class="value-label">59.29</text>
   <!-- Bar 5 -->
-  <rect x="447.2" y="354.15230769230766" width="57.6" height="165.8476923076923" fill="#00DC82" opacity="0.9" rx="4"/>
+  <rect x="404" y="322.65999999999997" width="50.82352941176471" height="197.34000000000003" fill="#DD0031" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="476" y="346.15230769230766" text-anchor="middle" class="value-label">46.87</text>
+  <text x="429.4117647058824" y="314.65999999999997" text-anchor="middle" class="value-label">55.77</text>
   <!-- Bar 6 -->
-  <rect x="519.2" y="360.2738461538462" width="57.6" height="159.72615384615384" fill="#0A7EA5" opacity="0.9" rx="4"/>
+  <rect x="467.5294117647059" y="348.13692307692304" width="50.82352941176471" height="171.86307692307693" fill="#06BABE" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="548" y="352.2738461538462" text-anchor="middle" class="value-label">45.14</text>
+  <text x="492.9411764705883" y="340.13692307692304" text-anchor="middle" class="value-label">48.57</text>
   <!-- Bar 7 -->
-  <rect x="591.2" y="396.40153846153845" width="57.6" height="123.59846153846154" fill="#3F63DD" opacity="0.9" rx="4"/>
+  <rect x="531.0588235294118" y="354.15230769230766" width="50.82352941176471" height="165.8476923076923" fill="#00DC82" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="620" y="388.40153846153845" text-anchor="middle" class="value-label">34.93</text>
+  <text x="556.4705882352941" y="346.15230769230766" text-anchor="middle" class="value-label">46.87</text>
   <!-- Bar 8 -->
-  <rect x="663.2" y="421.66615384615386" width="57.6" height="98.33384615384615" fill="#FF3E00" opacity="0.9" rx="4"/>
+  <rect x="594.5882352941177" y="360.2738461538462" width="50.82352941176471" height="159.72615384615384" fill="#0A7EA5" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="692" y="413.66615384615386" text-anchor="middle" class="value-label">27.79</text>
+  <text x="620" y="352.2738461538462" text-anchor="middle" class="value-label">45.14</text>
   <!-- Bar 9 -->
-  <rect x="735.2" y="431.9630769230769" width="57.6" height="88.03692307692307" fill="#AC7EF4" opacity="0.9" rx="4"/>
+  <rect x="658.1176470588235" y="396.40153846153845" width="50.82352941176471" height="123.59846153846154" fill="#3F63DD" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="764" y="423.9630769230769" text-anchor="middle" class="value-label">24.88</text>
+  <text x="683.5294117647059" y="388.40153846153845" text-anchor="middle" class="value-label">34.93</text>
   <!-- Bar 10 -->
-  <rect x="807.2" y="440.77384615384614" width="57.6" height="79.22615384615385" fill="#42B883" opacity="0.9" rx="4"/>
+  <rect x="721.6470588235294" y="421.66615384615386" width="50.82352941176471" height="98.33384615384615" fill="#FF3E00" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="836" y="432.77384615384614" text-anchor="middle" class="value-label">22.39</text>
+  <text x="747.0588235294117" y="413.66615384615386" text-anchor="middle" class="value-label">27.79</text>
   <!-- Bar 11 -->
-  <rect x="879.2" y="457.6876923076923" width="57.6" height="62.3123076923077" fill="#2C4F7C" opacity="0.9" rx="4"/>
+  <rect x="785.1764705882354" y="431.9630769230769" width="50.82352941176471" height="88.03692307692307" fill="#AC7EF4" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="908" y="449.6876923076923" text-anchor="middle" class="value-label">17.61</text>
+  <text x="810.5882352941177" y="423.9630769230769" text-anchor="middle" class="value-label">24.88</text>
   <!-- Bar 12 -->
-  <rect x="951.2" y="492.3292307692308" width="57.6" height="27.67076923076923" fill="#FF3E00" opacity="0.9" rx="4"/>
+  <rect x="848.7058823529412" y="440.77384615384614" width="50.82352941176471" height="79.22615384615385" fill="#42B883" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="980" y="484.3292307692308" text-anchor="middle" class="value-label">7.82</text>
+  <text x="874.1176470588235" y="432.77384615384614" text-anchor="middle" class="value-label">22.39</text>
   <!-- Bar 13 -->
-  <rect x="1023.2" y="502.98" width="57.6" height="17.02" fill="#673AB8" opacity="0.9" rx="4"/>
+  <rect x="912.2352941176471" y="457.6876923076923" width="50.82352941176471" height="62.3123076923077" fill="#2C4F7C" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="1052" y="494.98" text-anchor="middle" class="value-label">4.81</text>
+  <text x="937.6470588235294" y="449.6876923076923" text-anchor="middle" class="value-label">17.61</text>
   <!-- Bar 14 -->
-  <rect x="1095.2" y="505.63384615384615" width="57.6" height="14.366153846153844" fill="#2C4F7C" opacity="0.9" rx="4"/>
+  <rect x="975.764705882353" y="492.3292307692308" width="50.82352941176471" height="27.67076923076923" fill="#FF3E00" opacity="0.9" rx="4"/>
 
     <!-- Value above bar -->
-  <text x="1124" y="497.63384615384615" text-anchor="middle" class="value-label">4.06</text>
-  <text x="116" y="540" text-anchor="middle" class="bar-label">next-16</text>
-  <text x="188" y="540" text-anchor="middle" class="bar-label">tanstack-react</text>
-  <text x="260" y="540" text-anchor="middle" class="bar-label">react-19</text>
-  <text x="332" y="540" text-anchor="middle" class="bar-label">angular-21</text>
-  <text x="404" y="540" text-anchor="middle" class="bar-label">tanstack-solid</text>
-  <text x="476" y="540" text-anchor="middle" class="bar-label">nuxt-4</text>
-  <text x="548" y="540" text-anchor="middle" class="bar-label">react-18</text>
-  <text x="620" y="540" text-anchor="middle" class="bar-label">vitepress</text>
-  <text x="692" y="540" text-anchor="middle" class="bar-label">sveltekit</text>
-  <text x="764" y="540" text-anchor="middle" class="bar-label">qwik</text>
-  <text x="836" y="540" text-anchor="middle" class="bar-label">vue</text>
-  <text x="908" y="540" text-anchor="middle" class="bar-label">solid-start</text>
-  <text x="980" y="540" text-anchor="middle" class="bar-label">svelte</text>
-  <text x="1052" y="540" text-anchor="middle" class="bar-label">preact</text>
-  <text x="1124" y="540" text-anchor="middle" class="bar-label">solid</text>
+  <text x="1001.1764705882354" y="484.3292307692308" text-anchor="middle" class="value-label">7.82</text>
+  <!-- Bar 15 -->
+  <rect x="1039.2941176470588" y="502.98" width="50.82352941176471" height="17.02" fill="#673AB8" opacity="0.9" rx="4"/>
+
+    <!-- Value above bar -->
+  <text x="1064.7058823529412" y="494.98" text-anchor="middle" class="value-label">4.81</text>
+  <!-- Bar 16 -->
+  <rect x="1102.8235294117646" y="505.63384615384615" width="50.82352941176471" height="14.366153846153844" fill="#2C4F7C" opacity="0.9" rx="4"/>
+
+    <!-- Value above bar -->
+  <text x="1128.235294117647" y="497.63384615384615" text-anchor="middle" class="value-label">4.06</text>
+  <text x="118.11764705882354" y="535" text-anchor="end" transform="rotate(-45 118.11764705882354 535)" class="bar-label">next-16</text>
+  <text x="181.64705882352942" y="535" text-anchor="end" transform="rotate(-45 181.64705882352942 535)" class="bar-label">react-router</text>
+  <text x="245.1764705882353" y="535" text-anchor="end" transform="rotate(-45 245.1764705882353 535)" class="bar-label">tanstack-react</text>
+  <text x="308.7058823529412" y="535" text-anchor="end" transform="rotate(-45 308.7058823529412 535)" class="bar-label">analog</text>
+  <text x="372.2352941176471" y="535" text-anchor="end" transform="rotate(-45 372.2352941176471 535)" class="bar-label">react-19</text>
+  <text x="435.7647058823529" y="535" text-anchor="end" transform="rotate(-45 435.7647058823529 535)" class="bar-label">angular-21</text>
+  <text x="499.29411764705884" y="535" text-anchor="end" transform="rotate(-45 499.29411764705884 535)" class="bar-label">tanstack-solid</text>
+  <text x="562.8235294117648" y="535" text-anchor="end" transform="rotate(-45 562.8235294117648 535)" class="bar-label">nuxt-4</text>
+  <text x="626.3529411764706" y="535" text-anchor="end" transform="rotate(-45 626.3529411764706 535)" class="bar-label">react-18</text>
+  <text x="689.8823529411765" y="535" text-anchor="end" transform="rotate(-45 689.8823529411765 535)" class="bar-label">vitepress</text>
+  <text x="753.4117647058823" y="535" text-anchor="end" transform="rotate(-45 753.4117647058823 535)" class="bar-label">sveltekit</text>
+  <text x="816.9411764705883" y="535" text-anchor="end" transform="rotate(-45 816.9411764705883 535)" class="bar-label">qwik</text>
+  <text x="880.4705882352941" y="535" text-anchor="end" transform="rotate(-45 880.4705882352941 535)" class="bar-label">vue</text>
+  <text x="944" y="535" text-anchor="end" transform="rotate(-45 944 535)" class="bar-label">solid-start</text>
+  <text x="1007.529411764706" y="535" text-anchor="end" transform="rotate(-45 1007.529411764706 535)" class="bar-label">svelte</text>
+  <text x="1071.0588235294117" y="535" text-anchor="end" transform="rotate(-45 1071.0588235294117 535)" class="bar-label">preact</text>
+  <text x="1134.5882352941176" y="535" text-anchor="end" transform="rotate(-45 1134.5882352941176 535)" class="bar-label">solid</text>
   <text x="600" y="585" text-anchor="middle" class="axis-label">Framework</text>
-  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/7/2026, 10:55:14 PM</text>
+  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/8/2026, 11:22:00 PM</text>
 </svg>
