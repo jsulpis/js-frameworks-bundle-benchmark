@@ -18,7 +18,8 @@
   <rect width="1200" height="600" fill="#ffffff"/>
 
   <!-- Title -->
-  <text x="600" y="40" text-anchor="middle" class="title">JavaScript Frameworks Bare Bones Weight</text>
+  <text x="600" y="35" text-anchor="middle" class="title">Minimal Bundle Size by Framework</text>
+  <text x="600" y="50" text-anchor="middle" class="subtitle">JavaScript bundle size of a blank page (gzipped)</text>
 
   <!-- Y-axis -->
   <line x1="80" y1="60" x2="80" y2="520" class="axis"/>
@@ -164,5 +165,5 @@
   <text x="1071.0588235294117" y="535" text-anchor="end" transform="rotate(-45 1071.0588235294117 535)" class="bar-label">preact</text>
   <text x="1134.5882352941176" y="535" text-anchor="end" transform="rotate(-45 1134.5882352941176 535)" class="bar-label">solid</text>
   <text x="600" y="585" text-anchor="middle" class="axis-label">Framework</text>
-  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/8/2026, 11:22:00 PM</text>
+  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/16/2026, 6:58:54 PM</text>
 </svg>

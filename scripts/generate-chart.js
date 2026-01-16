@@ -86,7 +86,10 @@ function generateChart() {
   <!-- Title -->
   <text x="${
     width / 2
-  }" y="40" text-anchor="middle" class="title">JavaScript Frameworks Bare Bones Weight</text>
+  }" y="35" text-anchor="middle" class="title">Minimal Bundle Size by Framework</text>
+  <text x="${
+    width / 2
+  }" y="50" text-anchor="middle" class="subtitle">JavaScript bundle size of a blank page (gzipped)</text>
 
   <!-- Y-axis -->
   <line x1="${padding.left}" y1="${padding.top}" x2="${padding.left}" y2="${
