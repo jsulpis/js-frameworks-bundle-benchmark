@@ -2,17 +2,17 @@
   {
     "name": "next-16",
     "sizeKB": 439.9,
-    "gzipSizeKB": 127.32,
+    "gzipSizeKB": 126.99,
     "files": [
       {
         "path": "/_next/static/chunks/0524909a4bd87807.js",
         "sizeKB": "224.74",
-        "gzipSizeKB": "70.14"
+        "gzipSizeKB": "69.99"
       },
       {
         "path": "/_next/static/chunks/49c4215b01a0c481.js",
         "sizeKB": "168.38",
-        "gzipSizeKB": "43.53"
+        "gzipSizeKB": "43.37"
       },
       {
         "path": "/_next/static/chunks/turbopack-314e925bb4f16d1a.js",
@@ -22,7 +22,7 @@
       {
         "path": "/_next/static/chunks/f34f8998e7b30b6d.js",
         "sizeKB": "30.89",
-        "gzipSizeKB": "7.46"
+        "gzipSizeKB": "7.44"
       },
       {
         "path": "/_next/static/chunks/c96c5280698d48d7.js",
@@ -34,17 +34,17 @@
   {
     "name": "react-router",
     "sizeKB": 314.48,
-    "gzipSizeKB": 102.23,
+    "gzipSizeKB": 102.08,
     "files": [
       {
         "path": "/assets/entry.client-4vA1zoKN.js",
         "sizeKB": "190.41",
-        "gzipSizeKB": "60.02"
+        "gzipSizeKB": "59.90"
       },
       {
         "path": "/assets/chunk-EPOLDU6W-BOFQh_Iy.js",
         "sizeKB": "123.34",
-        "gzipSizeKB": "41.68"
+        "gzipSizeKB": "41.65"
       },
       {
         "path": "/assets/root-Bgi1z1rY.js",
@@ -61,12 +61,12 @@
   {
     "name": "tanstack-react",
     "sizeKB": 311.35,
-    "gzipSizeKB": 99.19,
+    "gzipSizeKB": 99.03,
     "files": [
       {
         "path": "/assets/main-CpkdKXiG.js",
         "sizeKB": "311.24",
-        "gzipSizeKB": "99.07"
+        "gzipSizeKB": "98.91"
       },
       {
         "path": "/assets/index-CE_ZnOA0.js",
@@ -78,48 +78,48 @@
   {
     "name": "analog",
     "sizeKB": 258.69,
-    "gzipSizeKB": 78.7,
+    "gzipSizeKB": 78.57,
     "files": [
       {
         "path": "/assets/index-f-DzbF3S.js",
         "sizeKB": "258.69",
-        "gzipSizeKB": "78.70"
+        "gzipSizeKB": "78.57"
       }
     ]
   },
   {
     "name": "react-19",
     "sizeKB": 190.47,
-    "gzipSizeKB": 59.29,
+    "gzipSizeKB": 59.18,
     "files": [
       {
         "path": "/assets/index-C4AAN05F.js",
         "sizeKB": "190.47",
-        "gzipSizeKB": "59.29"
+        "gzipSizeKB": "59.18"
       }
     ]
   },
   {
     "name": "angular-21",
     "sizeKB": 183.68,
-    "gzipSizeKB": 55.77,
+    "gzipSizeKB": 55.69,
     "files": [
       {
         "path": "main-NCZZWIVO.js",
         "sizeKB": "183.68",
-        "gzipSizeKB": "55.77"
+        "gzipSizeKB": "55.69"
       }
     ]
   },
   {
     "name": "tanstack-solid",
     "sizeKB": 145.91,
-    "gzipSizeKB": 48.57,
+    "gzipSizeKB": 48.49,
     "files": [
       {
         "path": "/assets/main-Ch6fJjXh.js",
         "sizeKB": "145.86",
-        "gzipSizeKB": "48.51"
+        "gzipSizeKB": "48.43"
       },
       {
         "path": "/assets/index-DzylD7fM.js",
@@ -131,31 +131,31 @@
   {
     "name": "nuxt-4",
     "sizeKB": 122.17,
-    "gzipSizeKB": 46.87,
+    "gzipSizeKB": 46.86,
     "files": [
       {
-        "path": "/_nuxt/Di_ZdvXA.js",
+        "path": "/_nuxt/CQak_xa0.js",
         "sizeKB": "122.17",
-        "gzipSizeKB": "46.87"
+        "gzipSizeKB": "46.86"
       }
     ]
   },
   {
     "name": "react-18",
     "sizeKB": 140.72,
-    "gzipSizeKB": 45.14,
+    "gzipSizeKB": 45.07,
     "files": [
       {
         "path": "/assets/index-COrjuJBb.js",
         "sizeKB": "140.72",
-        "gzipSizeKB": "45.14"
+        "gzipSizeKB": "45.07"
       }
     ]
   },
   {
     "name": "vitepress",
     "sizeKB": 87.02,
-    "gzipSizeKB": 34.93,
+    "gzipSizeKB": 34.92,
     "files": [
       {
         "path": "/assets/app.4usAvFJf.js",
@@ -170,7 +170,7 @@
       {
         "path": "/assets/chunks/framework.DCtQzrAU.js",
         "sizeKB": "85.13",
-        "gzipSizeKB": "33.75"
+        "gzipSizeKB": "33.74"
       },
       {
         "path": "/assets/index.md.Cd0XdDDU.lean.js",
@@ -185,12 +185,12 @@
     "gzipSizeKB": 27.79,
     "files": [
       {
-        "path": "./_app/immutable/entry/start.qgFKY05y.js",
+        "path": "./_app/immutable/entry/start.ChPF0IA5.js",
         "sizeKB": "0.08",
         "gzipSizeKB": "0.09"
       },
       {
-        "path": "./_app/immutable/chunks/CvtkZSnX.js",
+        "path": "./_app/immutable/chunks/ORwiKIgD.js",
         "sizeKB": "26.13",
         "gzipSizeKB": "10.28"
       },
@@ -210,7 +210,7 @@
         "gzipSizeKB": "0.22"
       },
       {
-        "path": "./_app/immutable/entry/app.CoxT9OTa.js",
+        "path": "./_app/immutable/entry/app.DaZ2ivIo.js",
         "sizeKB": "6.93",
         "gzipSizeKB": "3.22"
       },
@@ -262,6 +262,21 @@
         "gzipSizeKB": "0.26"
       },
       {
+        "path": "assets/app.tsx_App_component_AkbU84a8zes-Dc_dqJIk.js",
+        "sizeKB": "0.17",
+        "gzipSizeKB": "0.16"
+      },
+      {
+        "path": "assets/core.min-CJppAhJZ.js",
+        "sizeKB": "51.45",
+        "gzipSizeKB": "20.50"
+      },
+      {
+        "path": "assets/preload-helper-BN3Y4IRI.js",
+        "sizeKB": "1.34",
+        "gzipSizeKB": "0.74"
+      },
+      {
         "path": "assets/preloader-CG6wqg_9.js",
         "sizeKB": "0.10",
         "gzipSizeKB": "0.10"
@@ -272,29 +287,14 @@
         "gzipSizeKB": "1.38"
       },
       {
-        "path": "assets/preload-helper-BN3Y4IRI.js",
-        "sizeKB": "1.34",
-        "gzipSizeKB": "0.74"
-      },
-      {
         "path": "assets/qwikloader-BFaY64MI.js",
         "sizeKB": "0.07",
         "gzipSizeKB": "0.08"
       },
       {
-        "path": "assets/core.min-CJppAhJZ.js",
-        "sizeKB": "51.45",
-        "gzipSizeKB": "20.50"
-      },
-      {
         "path": "assets/qwikloader-CV-913rM.js",
         "sizeKB": "3.08",
         "gzipSizeKB": "1.67"
-      },
-      {
-        "path": "assets/app.tsx_App_component_AkbU84a8zes-Dc_dqJIk.js",
-        "sizeKB": "0.17",
-        "gzipSizeKB": "0.16"
       }
     ]
   },
@@ -313,12 +313,12 @@
   {
     "name": "solid-start",
     "sizeKB": 46.23,
-    "gzipSizeKB": 17.61,
+    "gzipSizeKB": 17.6,
     "files": [
       {
-        "path": "/_build/assets/client-DSad78t4.js",
+        "path": "/_build/assets/client-DwLIlK0Y.js",
         "sizeKB": "46.23",
-        "gzipSizeKB": "17.61"
+        "gzipSizeKB": "17.60"
       }
     ]
   },
@@ -337,12 +337,12 @@
   {
     "name": "preact",
     "sizeKB": 11.35,
-    "gzipSizeKB": 4.81,
+    "gzipSizeKB": 4.8,
     "files": [
       {
         "path": "/assets/index-BM9wJrdf.js",
         "sizeKB": "11.35",
-        "gzipSizeKB": "4.81"
+        "gzipSizeKB": "4.80"
       }
     ]
   },

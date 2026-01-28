@@ -17,8 +17,9 @@ In that regard, I wanted to quantify the impact of each modern framework in term
 
 With each framework, I created an app that renders a single blank page. I only kept the code that would typically be used in a real world app (routing, SEO tags, error handling etc). I used SSG when available, otherwise a regular SPA. Then, I built each app for production and measured the size of the generated JavaScript bundle.
 
-I compressed the files because I'm used to gzipped numbers, but the relative difference with uncompressed files is not huge. The downside is that there might be a difference of a few KB between the numbers on the graph and what we see in a browser due to different compression algorithms.
-
 ## Results
+
+**uncompressed size**: allows to better see the amount of code that will be parsed and executed by the browser
+**compressed size**: weight of the bundle on the network (although we don't see here the number and size of the individual chunks, which affect download speed)
 
 ![](./scripts/bundle-comparison.svg)

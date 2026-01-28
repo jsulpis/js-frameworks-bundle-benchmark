@@ -28,8 +28,8 @@ function generateChart() {
   const chartWidth = width - padding.left - padding.right;
   const chartHeight = height - padding.top - padding.bottom;
 
-  // Find max for scale
-  const maxSize = Math.max(...validData.map((d) => d.gzipSizeKB));
+  // Find max for scale (use uncompressed size for max)
+  const maxSize = Math.max(...validData.map((d) => d.sizeKB));
   const yMax = Math.ceil(maxSize / 10) * 10; // Round up to nearest ten
 
   // Framework brand colors
@@ -86,10 +86,10 @@ function generateChart() {
   <!-- Title -->
   <text x="${
     width / 2
-  }" y="35" text-anchor="middle" class="title">Minimal Bundle Size by Framework</text>
+  }" y="32" text-anchor="middle" class="title">Minimal Bundle Size by Framework</text>
   <text x="${
     width / 2
-  }" y="50" text-anchor="middle" class="subtitle">JavaScript bundle size of a blank page (gzipped)</text>
+  }" y="50" text-anchor="middle" class="subtitle">JavaScript bundle size of a blank page</text>
 
   <!-- Y-axis -->
   <line x1="${padding.left}" y1="${padding.top}" x2="${padding.left}" y2="${
@@ -110,11 +110,11 @@ function generateChart() {
 
     svg += `\n  <!-- Grid line ${i} -->
   <line x1="${padding.left}" y1="${y}" x2="${
-      width - padding.right
-    }" y2="${y}" class="grid-line"/>
+    width - padding.right
+  }" y2="${y}" class="grid-line"/>
   <text x="${padding.left - 10}" y="${
-      y + 5
-    }" text-anchor="end" class="axis-label">${Math.round(value)}</text>`;
+    y + 5
+  }" text-anchor="end" class="axis-label">${Math.round(value)}</text>`;
   }
 
   // Y-axis label
@@ -127,20 +127,37 @@ function generateChart() {
   // Bars
   validData.forEach((item, index) => {
     const x = padding.left + index * barWidth + barPadding;
-    const barHeight = (item.gzipSizeKB / yMax) * chartHeight;
-    const y = padding.top + chartHeight - barHeight;
     const color = frameworkColors[item.name] || "#999999"; // Fallback to gray if framework not found
 
-    // Bar
-    svg += `\n  <!-- Bar ${index} -->
-  <rect x="${x}" y="${y}" width="${actualBarWidth}" height="${barHeight}" fill="${color}" opacity="0.9" rx="4"/>
+    // Uncompressed bar (larger, lighter)
+    const uncompressedHeight = (item.sizeKB / yMax) * chartHeight;
+    const uncompressedY = padding.top + chartHeight - uncompressedHeight;
 
-    <!-- Value above bar -->
+    svg += `\n  <!-- Bar ${index} - ${item.name} -->
+  <!-- Uncompressed bar -->
+  <rect x="${x}" y="${uncompressedY}" width="${actualBarWidth}" height="${uncompressedHeight}" fill="${color}" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->`;
+
+    const compressedHeight = (item.gzipSizeKB / yMax) * chartHeight;
+    const compressedY = padding.top + chartHeight - compressedHeight;
+
+    svg += `
+  <rect x="${x}" y="${compressedY}" width="${actualBarWidth}" height="${compressedHeight}" fill="${color}" opacity="0.9" rx="4"/>
+
+  <!-- Value above uncompressed bar -->
   <text x="${x + actualBarWidth / 2}" y="${
-      y - 8
-    }" text-anchor="middle" class="value-label">${item.gzipSizeKB.toLocaleString(
-      "en-US"
-    )}</text>`;
+    uncompressedY - 8
+  }" text-anchor="middle" class="value-label">${item.sizeKB.toLocaleString(
+    "en-US",
+  )}</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="${x + actualBarWidth / 2}" y="${
+    compressedY - 8
+  }" text-anchor="middle" class="value-label">${item.gzipSizeKB.toLocaleString(
+    "en-US",
+  )}</text>`;
   });
 
   // X-axis labels
@@ -155,6 +172,15 @@ function generateChart() {
   svg += `\n  <text x="${width / 2}" y="${
     height - 15
   }" text-anchor="middle" class="axis-label">Framework</text>`;
+
+  // Legend
+  const legendX = width - padding.right - 180;
+  const legendY = padding.top + 25;
+  svg += `\n  <!-- Legend -->
+  <rect x="${legendX}" y="${legendY}" width="20" height="15" fill="#666" opacity="0.3" rx="2"/>
+  <text x="${legendX + 25}" y="${legendY + 12}" font-size="12" fill="#666">Uncompressed</text>
+  <rect x="${legendX}" y="${legendY + 25}" width="20" height="15" fill="#666" opacity="0.9" rx="2"/>
+  <text x="${legendX + 25}" y="${legendY + 37}" font-size="12" fill="#666">Gzipped</text>`;
 
   // Footer
   const timestamp = new Date().toLocaleString();

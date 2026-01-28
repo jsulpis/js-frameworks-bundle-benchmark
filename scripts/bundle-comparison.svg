@@ -18,8 +18,8 @@
   <rect width="1200" height="600" fill="#ffffff"/>
 
   <!-- Title -->
-  <text x="600" y="35" text-anchor="middle" class="title">Minimal Bundle Size by Framework</text>
-  <text x="600" y="50" text-anchor="middle" class="subtitle">JavaScript bundle size of a blank page (gzipped)</text>
+  <text x="600" y="32" text-anchor="middle" class="title">Minimal Bundle Size by Framework</text>
+  <text x="600" y="50" text-anchor="middle" class="subtitle">JavaScript bundle size of a blank page</text>
 
   <!-- Y-axis -->
   <line x1="80" y1="60" x2="80" y2="520" class="axis"/>
@@ -33,120 +33,239 @@
   <text x="70" y="525" text-anchor="end" class="axis-label">0</text>
   <!-- Grid line 1 -->
   <line x1="80" y1="474" x2="1160" y2="474" class="grid-line"/>
-  <text x="70" y="479" text-anchor="end" class="axis-label">13</text>
+  <text x="70" y="479" text-anchor="end" class="axis-label">44</text>
   <!-- Grid line 2 -->
   <line x1="80" y1="428" x2="1160" y2="428" class="grid-line"/>
-  <text x="70" y="433" text-anchor="end" class="axis-label">26</text>
+  <text x="70" y="433" text-anchor="end" class="axis-label">88</text>
   <!-- Grid line 3 -->
   <line x1="80" y1="382" x2="1160" y2="382" class="grid-line"/>
-  <text x="70" y="387" text-anchor="end" class="axis-label">39</text>
+  <text x="70" y="387" text-anchor="end" class="axis-label">132</text>
   <!-- Grid line 4 -->
   <line x1="80" y1="336" x2="1160" y2="336" class="grid-line"/>
-  <text x="70" y="341" text-anchor="end" class="axis-label">52</text>
+  <text x="70" y="341" text-anchor="end" class="axis-label">176</text>
   <!-- Grid line 5 -->
   <line x1="80" y1="290" x2="1160" y2="290" class="grid-line"/>
-  <text x="70" y="295" text-anchor="end" class="axis-label">65</text>
+  <text x="70" y="295" text-anchor="end" class="axis-label">220</text>
   <!-- Grid line 6 -->
   <line x1="80" y1="244" x2="1160" y2="244" class="grid-line"/>
-  <text x="70" y="249" text-anchor="end" class="axis-label">78</text>
+  <text x="70" y="249" text-anchor="end" class="axis-label">264</text>
   <!-- Grid line 7 -->
   <line x1="80" y1="198" x2="1160" y2="198" class="grid-line"/>
-  <text x="70" y="203" text-anchor="end" class="axis-label">91</text>
+  <text x="70" y="203" text-anchor="end" class="axis-label">308</text>
   <!-- Grid line 8 -->
   <line x1="80" y1="152" x2="1160" y2="152" class="grid-line"/>
-  <text x="70" y="157" text-anchor="end" class="axis-label">104</text>
+  <text x="70" y="157" text-anchor="end" class="axis-label">352</text>
   <!-- Grid line 9 -->
   <line x1="80" y1="106" x2="1160" y2="106" class="grid-line"/>
-  <text x="70" y="111" text-anchor="end" class="axis-label">117</text>
+  <text x="70" y="111" text-anchor="end" class="axis-label">396</text>
   <!-- Grid line 10 -->
   <line x1="80" y1="60" x2="1160" y2="60" class="grid-line"/>
-  <text x="70" y="65" text-anchor="end" class="axis-label">130</text>
+  <text x="70" y="65" text-anchor="end" class="axis-label">440</text>
   <text x="20" y="300" text-anchor="middle" transform="rotate(-90 20 300)" class="axis-label">JS bundle size (KB)</text>
-  <!-- Bar 0 -->
-  <rect x="86.3529411764706" y="69.48307692307696" width="50.82352941176471" height="450.51692307692304" fill="#000" opacity="0.9" rx="4"/>
+  <!-- Bar 0 - next-16 -->
+  <!-- Uncompressed bar -->
+  <rect x="86.3529411764706" y="60.10454545454547" width="50.82352941176471" height="459.8954545454545" fill="#000" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="86.3529411764706" y="387.2377272727273" width="50.82352941176471" height="132.76227272727272" fill="#000" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="111.76470588235296" y="61.483076923076965" text-anchor="middle" class="value-label">127.32</text>
-  <!-- Bar 1 -->
-  <rect x="149.88235294117646" y="158.26307692307688" width="50.82352941176471" height="361.7369230769231" fill="#F44250" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="111.76470588235296" y="52.10454545454547" text-anchor="middle" class="value-label">439.9</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="111.76470588235296" y="379.2377272727273" text-anchor="middle" class="value-label">126.99</text>
+  <!-- Bar 1 - react-router -->
+  <!-- Uncompressed bar -->
+  <rect x="149.88235294117646" y="191.2254545454545" width="50.82352941176471" height="328.7745454545455" fill="#F44250" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="149.88235294117646" y="413.28" width="50.82352941176471" height="106.72" fill="#F44250" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="175.2941176470588" y="150.26307692307688" text-anchor="middle" class="value-label">102.23</text>
-  <!-- Bar 2 -->
-  <rect x="213.41176470588235" y="169.01999999999998" width="50.82352941176471" height="350.98" fill="#06BABE" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="175.2941176470588" y="183.2254545454545" text-anchor="middle" class="value-label">314.48</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="175.2941176470588" y="405.28" text-anchor="middle" class="value-label">102.08</text>
+  <!-- Bar 2 - tanstack-react -->
+  <!-- Uncompressed bar -->
+  <rect x="213.41176470588235" y="194.49772727272727" width="50.82352941176471" height="325.5022727272727" fill="#06BABE" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="213.41176470588235" y="416.46863636363634" width="50.82352941176471" height="103.53136363636365" fill="#06BABE" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="238.8235294117647" y="161.01999999999998" text-anchor="middle" class="value-label">99.19</text>
-  <!-- Bar 3 -->
-  <rect x="276.9411764705883" y="241.52307692307693" width="50.82352941176471" height="278.4769230769231" fill="#FC2853" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="238.8235294117647" y="186.49772727272727" text-anchor="middle" class="value-label">311.35</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="238.8235294117647" y="408.46863636363634" text-anchor="middle" class="value-label">99.03</text>
+  <!-- Bar 3 - analog -->
+  <!-- Uncompressed bar -->
+  <rect x="276.9411764705883" y="249.55136363636365" width="50.82352941176471" height="270.44863636363635" fill="#FC2853" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="276.9411764705883" y="437.8586363636364" width="50.82352941176471" height="82.14136363636362" fill="#FC2853" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="302.35294117647067" y="233.52307692307693" text-anchor="middle" class="value-label">78.7</text>
-  <!-- Bar 4 -->
-  <rect x="340.47058823529414" y="310.2046153846154" width="50.82352941176471" height="209.7953846153846" fill="#0A7EA5" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="302.35294117647067" y="241.55136363636365" text-anchor="middle" class="value-label">258.69</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="302.35294117647067" y="429.8586363636364" text-anchor="middle" class="value-label">78.57</text>
+  <!-- Bar 4 - react-19 -->
+  <!-- Uncompressed bar -->
+  <rect x="340.47058823529414" y="320.87227272727273" width="50.82352941176471" height="199.12772727272727" fill="#0A7EA5" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="340.47058823529414" y="458.13" width="50.82352941176471" height="61.870000000000005" fill="#0A7EA5" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="365.8823529411765" y="302.2046153846154" text-anchor="middle" class="value-label">59.29</text>
-  <!-- Bar 5 -->
-  <rect x="404" y="322.65999999999997" width="50.82352941176471" height="197.34000000000003" fill="#DD0031" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="365.8823529411765" y="312.87227272727273" text-anchor="middle" class="value-label">190.47</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="365.8823529411765" y="450.13" text-anchor="middle" class="value-label">59.18</text>
+  <!-- Bar 5 - angular-21 -->
+  <!-- Uncompressed bar -->
+  <rect x="404" y="327.9709090909091" width="50.82352941176471" height="192.0290909090909" fill="#DD0031" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="404" y="461.7786363636364" width="50.82352941176471" height="58.22136363636363" fill="#DD0031" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="429.4117647058824" y="314.65999999999997" text-anchor="middle" class="value-label">55.77</text>
-  <!-- Bar 6 -->
-  <rect x="467.5294117647059" y="348.13692307692304" width="50.82352941176471" height="171.86307692307693" fill="#06BABE" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="429.4117647058824" y="319.9709090909091" text-anchor="middle" class="value-label">183.68</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="429.4117647058824" y="453.7786363636364" text-anchor="middle" class="value-label">55.69</text>
+  <!-- Bar 6 - tanstack-solid -->
+  <!-- Uncompressed bar -->
+  <rect x="467.5294117647059" y="367.4577272727273" width="50.82352941176471" height="152.54227272727272" fill="#06BABE" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="467.5294117647059" y="469.3059090909091" width="50.82352941176471" height="50.69409090909091" fill="#06BABE" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="492.9411764705883" y="340.13692307692304" text-anchor="middle" class="value-label">48.57</text>
-  <!-- Bar 7 -->
-  <rect x="531.0588235294118" y="354.15230769230766" width="50.82352941176471" height="165.8476923076923" fill="#00DC82" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="492.9411764705883" y="359.4577272727273" text-anchor="middle" class="value-label">145.91</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="492.9411764705883" y="461.3059090909091" text-anchor="middle" class="value-label">48.49</text>
+  <!-- Bar 7 - nuxt-4 -->
+  <!-- Uncompressed bar -->
+  <rect x="531.0588235294118" y="392.27681818181816" width="50.82352941176471" height="127.72318181818181" fill="#00DC82" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="531.0588235294118" y="471.01" width="50.82352941176471" height="48.99" fill="#00DC82" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="556.4705882352941" y="346.15230769230766" text-anchor="middle" class="value-label">46.87</text>
-  <!-- Bar 8 -->
-  <rect x="594.5882352941177" y="360.2738461538462" width="50.82352941176471" height="159.72615384615384" fill="#0A7EA5" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="556.4705882352941" y="384.27681818181816" text-anchor="middle" class="value-label">122.17</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="556.4705882352941" y="463.01" text-anchor="middle" class="value-label">46.86</text>
+  <!-- Bar 8 - react-18 -->
+  <!-- Uncompressed bar -->
+  <rect x="594.5882352941177" y="372.88363636363636" width="50.82352941176471" height="147.11636363636364" fill="#0A7EA5" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="594.5882352941177" y="472.88136363636363" width="50.82352941176471" height="47.11863636363636" fill="#0A7EA5" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="620" y="352.2738461538462" text-anchor="middle" class="value-label">45.14</text>
-  <!-- Bar 9 -->
-  <rect x="658.1176470588235" y="396.40153846153845" width="50.82352941176471" height="123.59846153846154" fill="#3F63DD" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="620" y="364.88363636363636" text-anchor="middle" class="value-label">140.72</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="620" y="464.88136363636363" text-anchor="middle" class="value-label">45.07</text>
+  <!-- Bar 9 - vitepress -->
+  <!-- Uncompressed bar -->
+  <rect x="658.1176470588235" y="429.02454545454543" width="50.82352941176471" height="90.97545454545454" fill="#3F63DD" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="658.1176470588235" y="483.4927272727273" width="50.82352941176471" height="36.50727272727273" fill="#3F63DD" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="683.5294117647059" y="388.40153846153845" text-anchor="middle" class="value-label">34.93</text>
-  <!-- Bar 10 -->
-  <rect x="721.6470588235294" y="421.66615384615386" width="50.82352941176471" height="98.33384615384615" fill="#FF3E00" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="683.5294117647059" y="421.02454545454543" text-anchor="middle" class="value-label">87.02</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="683.5294117647059" y="475.4927272727273" text-anchor="middle" class="value-label">34.92</text>
+  <!-- Bar 10 - sveltekit -->
+  <!-- Uncompressed bar -->
+  <rect x="721.6470588235294" y="450.5713636363636" width="50.82352941176471" height="69.42863636363636" fill="#FF3E00" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="721.6470588235294" y="490.9468181818182" width="50.82352941176471" height="29.053181818181816" fill="#FF3E00" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="747.0588235294117" y="413.66615384615386" text-anchor="middle" class="value-label">27.79</text>
-  <!-- Bar 11 -->
-  <rect x="785.1764705882354" y="431.9630769230769" width="50.82352941176471" height="88.03692307692307" fill="#AC7EF4" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="747.0588235294117" y="442.5713636363636" text-anchor="middle" class="value-label">66.41</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="747.0588235294117" y="482.9468181818182" text-anchor="middle" class="value-label">27.79</text>
+  <!-- Bar 11 - qwik -->
+  <!-- Uncompressed bar -->
+  <rect x="785.1764705882354" y="458.3913636363636" width="50.82352941176471" height="61.608636363636364" fill="#AC7EF4" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="785.1764705882354" y="493.9890909090909" width="50.82352941176471" height="26.01090909090909" fill="#AC7EF4" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="810.5882352941177" y="423.9630769230769" text-anchor="middle" class="value-label">24.88</text>
-  <!-- Bar 12 -->
-  <rect x="848.7058823529412" y="440.77384615384614" width="50.82352941176471" height="79.22615384615385" fill="#42B883" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="810.5882352941177" y="450.3913636363636" text-anchor="middle" class="value-label">58.93</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="810.5882352941177" y="485.9890909090909" text-anchor="middle" class="value-label">24.88</text>
+  <!-- Bar 12 - vue -->
+  <!-- Uncompressed bar -->
+  <rect x="848.7058823529412" y="460.4718181818182" width="50.82352941176471" height="59.52818181818181" fill="#42B883" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="848.7058823529412" y="496.5922727272727" width="50.82352941176471" height="23.407727272727275" fill="#42B883" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="874.1176470588235" y="432.77384615384614" text-anchor="middle" class="value-label">22.39</text>
-  <!-- Bar 13 -->
-  <rect x="912.2352941176471" y="457.6876923076923" width="50.82352941176471" height="62.3123076923077" fill="#2C4F7C" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="874.1176470588235" y="452.4718181818182" text-anchor="middle" class="value-label">56.94</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="874.1176470588235" y="488.5922727272727" text-anchor="middle" class="value-label">22.39</text>
+  <!-- Bar 13 - solid-start -->
+  <!-- Uncompressed bar -->
+  <rect x="912.2352941176471" y="471.6686363636364" width="50.82352941176471" height="48.33136363636363" fill="#2C4F7C" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="912.2352941176471" y="501.6" width="50.82352941176471" height="18.400000000000002" fill="#2C4F7C" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="937.6470588235294" y="449.6876923076923" text-anchor="middle" class="value-label">17.61</text>
-  <!-- Bar 14 -->
-  <rect x="975.764705882353" y="492.3292307692308" width="50.82352941176471" height="27.67076923076923" fill="#FF3E00" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="937.6470588235294" y="463.6686363636364" text-anchor="middle" class="value-label">46.23</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="937.6470588235294" y="493.6" text-anchor="middle" class="value-label">17.6</text>
+  <!-- Bar 14 - svelte -->
+  <!-- Uncompressed bar -->
+  <rect x="975.764705882353" y="500.03181818181815" width="50.82352941176471" height="19.96818181818182" fill="#FF3E00" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="975.764705882353" y="511.82454545454544" width="50.82352941176471" height="8.175454545454546" fill="#FF3E00" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="1001.1764705882354" y="484.3292307692308" text-anchor="middle" class="value-label">7.82</text>
-  <!-- Bar 15 -->
-  <rect x="1039.2941176470588" y="502.98" width="50.82352941176471" height="17.02" fill="#673AB8" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="1001.1764705882354" y="492.03181818181815" text-anchor="middle" class="value-label">19.1</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="1001.1764705882354" y="503.82454545454544" text-anchor="middle" class="value-label">7.82</text>
+  <!-- Bar 15 - preact -->
+  <!-- Uncompressed bar -->
+  <rect x="1039.2941176470588" y="508.1340909090909" width="50.82352941176471" height="11.86590909090909" fill="#673AB8" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="1039.2941176470588" y="514.9818181818182" width="50.82352941176471" height="5.018181818181818" fill="#673AB8" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="1064.7058823529412" y="494.98" text-anchor="middle" class="value-label">4.81</text>
-  <!-- Bar 16 -->
-  <rect x="1102.8235294117646" y="505.63384615384615" width="50.82352941176471" height="14.366153846153844" fill="#2C4F7C" opacity="0.9" rx="4"/>
+  <!-- Value above uncompressed bar -->
+  <text x="1064.7058823529412" y="500.1340909090909" text-anchor="middle" class="value-label">11.35</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="1064.7058823529412" y="506.9818181818182" text-anchor="middle" class="value-label">4.8</text>
+  <!-- Bar 16 - solid -->
+  <!-- Uncompressed bar -->
+  <rect x="1102.8235294117646" y="509.0540909090909" width="50.82352941176471" height="10.945909090909092" fill="#2C4F7C" opacity="0.3" rx="4"/>
+  
+  <!-- Compressed bar (on top) -->
+  <rect x="1102.8235294117646" y="515.7554545454545" width="50.82352941176471" height="4.244545454545454" fill="#2C4F7C" opacity="0.9" rx="4"/>
 
-    <!-- Value above bar -->
-  <text x="1128.235294117647" y="497.63384615384615" text-anchor="middle" class="value-label">4.06</text>
+  <!-- Value above uncompressed bar -->
+  <text x="1128.235294117647" y="501.0540909090909" text-anchor="middle" class="value-label">10.47</text>
+  
+  <!-- Value above compressed bar -->
+  <text x="1128.235294117647" y="507.75545454545454" text-anchor="middle" class="value-label">4.06</text>
   <text x="118.11764705882354" y="535" text-anchor="end" transform="rotate(-45 118.11764705882354 535)" class="bar-label">next-16</text>
   <text x="181.64705882352942" y="535" text-anchor="end" transform="rotate(-45 181.64705882352942 535)" class="bar-label">react-router</text>
   <text x="245.1764705882353" y="535" text-anchor="end" transform="rotate(-45 245.1764705882353 535)" class="bar-label">tanstack-react</text>
@@ -165,5 +284,10 @@
   <text x="1071.0588235294117" y="535" text-anchor="end" transform="rotate(-45 1071.0588235294117 535)" class="bar-label">preact</text>
   <text x="1134.5882352941176" y="535" text-anchor="end" transform="rotate(-45 1134.5882352941176 535)" class="bar-label">solid</text>
   <text x="600" y="585" text-anchor="middle" class="axis-label">Framework</text>
-  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/16/2026, 6:58:54 PM</text>
+  <!-- Legend -->
+  <rect x="980" y="85" width="20" height="15" fill="#666" opacity="0.3" rx="2"/>
+  <text x="1005" y="97" font-size="12" fill="#666">Uncompressed</text>
+  <rect x="980" y="110" width="20" height="15" fill="#666" opacity="0.9" rx="2"/>
+  <text x="1005" y="122" font-size="12" fill="#666">Gzipped</text>
+  <text x="1160" y="590" text-anchor="end" font-size="10" fill="#999">Generated on 1/28/2026, 9:41:15 PM</text>
 </svg>

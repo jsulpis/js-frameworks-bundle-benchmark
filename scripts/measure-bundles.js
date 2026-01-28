@@ -69,7 +69,7 @@ function getLoadedJSSize(distDir, scripts) {
 
     trackedFiles.add(scriptPath);
     const content = fs.readFileSync(fullPath);
-    const gzipSize = zlib.gzipSync(content, { level: 6 }).length;
+    const gzipSize = zlib.gzipSync(content, { level: 9 }).length;
 
     totalSize += content.length;
     totalGzipSize += gzipSize;
@@ -83,7 +83,7 @@ function getLoadedJSSize(distDir, scripts) {
     const contentStr = content.toString(
       "utf-8",
       0,
-      Math.min(content.length, 100000)
+      Math.min(content.length, 100000),
     );
     const importRegex =
       /import\s+(?:{[^}]*}|[^'"]*)?\s*from\s+["']([^"']+\.js)["']/g;
@@ -93,7 +93,7 @@ function getLoadedJSSize(distDir, scripts) {
       const importedFile = importMatch[1];
       const fileDir = path.dirname(scriptPath);
       const resolvedPath = path.posix.normalize(
-        path.posix.join(fileDir, importedFile)
+        path.posix.join(fileDir, importedFile),
       );
 
       if (!trackedFiles.has(resolvedPath)) {
@@ -163,8 +163,8 @@ function getJSSize(appPath) {
   const targetDir = fs.existsSync(distPath)
     ? distPath
     : fs.existsSync(buildPath)
-    ? buildPath
-    : null;
+      ? buildPath
+      : null;
 
   if (!targetDir) {
     console.log(`⚠️  No dist or build folder found`);
@@ -191,7 +191,7 @@ function getJSSize(appPath) {
   if (fs.existsSync(assetsDir)) {
     const files = fs.readdirSync(assetsDir);
     const hasBundleGraph = files.some(
-      (f) => f.startsWith("bundle-graph-") && f.endsWith(".json")
+      (f) => f.startsWith("bundle-graph-") && f.endsWith(".json"),
     );
 
     if (hasBundleGraph) {
@@ -260,7 +260,7 @@ async function main() {
 
   // Sort by gzip size
   results.sort(
-    (a, b) => (b.gzipSizeKB || Infinity) - (a.gzipSizeKB || Infinity)
+    (a, b) => (b.gzipSizeKB || Infinity) - (a.gzipSizeKB || Infinity),
   );
 
   // Save results
@@ -273,7 +273,7 @@ async function main() {
   results.forEach((result, index) => {
     if (result.error) {
       console.log(
-        `${index + 1}. ${result.name.padEnd(15)} - ❌ ${result.error}`
+        `${index + 1}. ${result.name.padEnd(15)} - ❌ ${result.error}`,
       );
     } else {
       console.log(
@@ -281,7 +281,7 @@ async function main() {
           .toString()
           .padEnd(8)} KB (gzip) / ${result.sizeKB
           .toString()
-          .padEnd(8)} KB (raw)`
+          .padEnd(8)} KB (raw)`,
       );
     }
   });
